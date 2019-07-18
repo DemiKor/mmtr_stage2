@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="Desktop.MMTR_Stage2.src.main" target="1.8" />
+      <module name="MMTR.src.main" target="1.8" />
+      <module name="MMTR.src.src.main" target="1.8" />
+      <module name="MMTR.src.src.test" target="1.8" />
+      <module name="MMTR.src.test" target="1.8" />
+      <module name="MMTR_Stage2.main" target="1.8" />
+      <module name="MMTR_Stage2.MMTR.src.main" target="1.8" />
+      <module name="MMTR_Stage2.MMTR.src.test" target="1.8" />
+      <module name="MMTR_Stage2.src.main" target="1.8" />
+      <module name="MMTR_Stage2.src.test" target="1.8" />
+      <module name="MMTR_Stage2.test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
