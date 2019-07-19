@@ -13,16 +13,18 @@ public class Word {
 
     @Column(name = "name")
     private String name;
-    @Column(name = "regex")
-    private String regex;
 
-    @OneToOne(cascade = CascadeType.ALL)
+    @ManyToMany(cascade = CascadeType.ALL)
+    @JoinColumn(name="lib_id")
+    private Library library;
+
+    @ManyToMany(cascade = CascadeType.ALL)
     @JoinColumn(name="translation_id")
     private Translation translation;
 
-    public Word(String name, String regex, Translation translation) {
+    public Word(String name, Library library, Translation translation) {
         this.name = name;
-        this.regex = regex;
+        this.library = library;
         this.translation = translation;
     }
 
@@ -40,12 +42,12 @@ public class Word {
         this.name = name;
     }
 
-    public String getRegex() {
-        return regex;
+    public Library getlibrary() {
+        return library;
     }
 
-    public void setRegex(String regex) {
-        this.regex = regex;
+    public void setlibrary(Library library) {
+        this.library = library;
     }
 
     public Translation getTranslation() {
