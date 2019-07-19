@@ -19,7 +19,7 @@ public class MainController {
     @Autowired
     TranslationRepository translationRepository;
 
-    @GetMapping("/all_words")
+    @GetMapping("/words")
     public ArrayList<Word> getAllWords(){
         ArrayList<Word> list = new ArrayList<>();
         for(Word t : wordRepository.findAll()){
@@ -33,7 +33,7 @@ public class MainController {
         return wordRepository.findByName(word);
     }
 
-    @DeleteMapping("delete/{word}")
+    @DeleteMapping("/word/delete/{word}")
     public boolean deleteWord(@PathVariable String word){
         try {
             Word word1 = getWord(word);
@@ -48,7 +48,9 @@ public class MainController {
     @PostMapping("/word")
     public boolean addWord(@RequestBody WordForAdd wordForAdd){
         try{
-            Word word = new Word(wordForAdd.getName(),wordForAdd.getRegex(),new Translation(wordForAdd.getTranslation()));
+            Translation translation = translationRepository.findByName(wordForAdd.getTranslation());
+            if(translation == null) translation = new Translation(wordForAdd.getTranslation());
+            Word word = new Word(wordForAdd.getName(),wordForAdd.getRegex(),translation);
             wordRepository.save(word);
             return true;
         }catch (Exception e){
@@ -60,7 +62,9 @@ public class MainController {
     @PutMapping("/word")
     public boolean updateWord(@RequestBody WordForAdd wordForAdd){
         try{
-            Word word = new Word(wordForAdd.getName(),wordForAdd.getRegex(),new Translation(wordForAdd.getTranslation()));
+            Translation translation = translationRepository.findByName(wordForAdd.getTranslation());
+            if(translation == null) translation = new Translation(wordForAdd.getTranslation());
+            Word word = new Word(wordForAdd.getName(),wordForAdd.getRegex(),translation);
             if(wordRepository.existsByName(word.getName()))
                 deleteWord(word.getName());
             wordRepository.save(word);

@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MMTR.iml" filepath="$PROJECT_DIR$/.idea/modules/MMTR.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MMTR.main.iml" filepath="$PROJECT_DIR$/.idea/modules/MMTR.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/src/MMTR.src.iml" filepath="$PROJECT_DIR$/.idea/modules/src/MMTR.src.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MMTR.test.iml" filepath="$PROJECT_DIR$/.idea/modules/MMTR.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/mmtr_stage2.iml" filepath="$PROJECT_DIR$/.idea/mmtr_stage2.iml" />
     </modules>
   </component>
