@@ -80,7 +80,11 @@ public class MainController {
 
     private Word makeWord(WordForAdd wordForAdd) throws Exception{
         Translation translation = translationRepository.findByName(wordForAdd.getTranslation());
-        if(translation == null) translation = new Translation(wordForAdd.getTranslation());
+        if(translation == null)
+        {
+            translation = new Translation(wordForAdd.getTranslation());
+            translationRepository.save(translation);
+        }
         Library library = libraryRepository.findById(wordForAdd.getRegex()).get();
         if(!wordForAdd.getName().matches(library.getRegex())){
             System.out.println("Regulyarka");
