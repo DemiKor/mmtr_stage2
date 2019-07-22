@@ -2,10 +2,10 @@ package com.mmtr.models;
 
 public class WordForAdd {
     private String name;
-    private String regex;
+    private Integer regex;
     private String translation;
 
-    public WordForAdd(String name, String regex, String translation) {
+    public WordForAdd(String name, Integer regex, String translation) {
         this.name = name;
         this.regex = regex;
         this.translation = translation;
@@ -21,11 +21,11 @@ public class WordForAdd {
         this.name = name;
     }
 
-    public String getRegex() {
+    public Integer getRegex() {
         return regex;
     }
 
-    public void setRegex(String regex) {
+    public void setRegex(Integer regex) {
         this.regex = regex;
     }
 
