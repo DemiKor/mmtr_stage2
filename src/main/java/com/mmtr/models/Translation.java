@@ -12,7 +12,6 @@ public class Translation {
     @Column(name = "id")
     private Integer id;
 
-//    @OneToOne(mappedBy = "word")
     @Column(name = "name")
     private String name;
 

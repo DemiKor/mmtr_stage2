@@ -82,7 +82,10 @@ public class MainController {
         Translation translation = translationRepository.findByName(wordForAdd.getTranslation());
         if(translation == null) translation = new Translation(wordForAdd.getTranslation());
         Library library = libraryRepository.findById(wordForAdd.getRegex()).get();
-        if(!library.getRegex().matches(library.getRegex())) throw new Exception("Не подходит под тип");
+        if(!wordForAdd.getName().matches(library.getRegex())){
+            System.out.println("Regulyarka");
+            throw new Exception("Regulyarka");
+        }
         Word word = new Word(wordForAdd.getName(),library,translation);
         return  word;
     }
