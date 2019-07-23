@@ -41,11 +41,11 @@ public class Library {
         this.id = id;
     }
 
-    public Set<Word> getWords() {
-        return words;
-    }
-
-    public void setWords(Set<Word> words) {
-        this.words = words;
-    }
+//    public Set<Word> getWords() {
+//        return words;
+//    }
+//
+//    public void setWords(Set<Word> words) {
+//        this.words = words;
+//    }
 }

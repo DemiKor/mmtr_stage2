@@ -42,11 +42,11 @@ public class Translation {
         return name;
     }
 
-    public Set<Word> getWords() {
-        return words;
-    }
-
-    public void setWords(Set<Word> words) {
-        this.words = words;
-    }
+//    public Set<Word> getWords() {
+//        return words;
+//    }
+//
+//    public void setWords(Set<Word> words) {
+//        this.words = words;
+//    }
 }

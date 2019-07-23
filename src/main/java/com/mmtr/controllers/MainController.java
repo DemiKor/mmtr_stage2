@@ -39,7 +39,7 @@ public class MainController {
         return wordRepository.findByName(word);
     }
 
-    @DeleteMapping("/word/delete/{word}")
+    @DeleteMapping("/word/{word}")
     public boolean deleteWord(@PathVariable String word){
         try {
             Word word1 = getWord(word);
@@ -52,28 +52,26 @@ public class MainController {
     }
 
     @PostMapping("/word")
-    public boolean addWord(@RequestBody WordForAdd wordForAdd){
+    public Word addWord(@RequestBody WordForAdd wordForAdd){
         try{
             Word word = makeWord(wordForAdd);
-            wordRepository.save(word);
-            return true;
+            return wordRepository.save(word);
         }catch (Exception e){
             System.out.println(e.getMessage());
-            return  false;
+            return null;
         }
     }
 
     @PutMapping("/word")
-    public boolean updateWord(@RequestBody WordForAdd wordForAdd){
+    public Word updateWord(@RequestBody WordForAdd wordForAdd){
         try{
             Word word = makeWord(wordForAdd);
             if(wordRepository.existsByName(word.getName()))
                 deleteWord(word.getName());
-            wordRepository.save(word);
-            return true;
+            return wordRepository.save(word);
         }catch (Exception e){
             System.out.println(e.getMessage());
-            return  false;
+            return  null;
         }
     }
 
