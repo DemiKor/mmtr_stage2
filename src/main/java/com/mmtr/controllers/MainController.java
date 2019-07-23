@@ -1,6 +1,5 @@
 package com.mmtr.controllers;
 
-
 import com.mmtr.models.Library;
 import com.mmtr.models.Translation;
 import com.mmtr.models.Word;
@@ -10,8 +9,14 @@ import com.mmtr.repositories.TranslationRepository;
 import com.mmtr.repositories.WordRepository;
 import io.swagger.annotations.Api;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.hateoas.Resources;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+import javax.ws.rs.core.Response;
 
+import javax.websocket.server.PathParam;
+import javax.xml.ws.http.HTTPException;
 import java.util.ArrayList;
 
 @Api(value = "Libraries", description = "API for libraries")
@@ -26,52 +31,61 @@ public class MainController {
     LibraryRepository libraryRepository;
 
     @GetMapping("/words")
-    public ArrayList<Word> getAllWords(){
+    public Resources<Word> getAllWords(){
         ArrayList<Word> list = new ArrayList<>();
         for(Word t : wordRepository.findAll()){
             list.add(t);
         }
-        return list;
+        return new Resources<>(list);
     }
 
-    @GetMapping("/word/{word}")
+    @GetMapping("/words/{id}")
     public Word getWord(@PathVariable String word){
         return wordRepository.findByName(word);
     }
 
-    @DeleteMapping("/word/{word}")
-    public boolean deleteWord(@PathVariable String word){
+    @DeleteMapping("/words/{id}")
+    public Response deleteWord(@PathParam("id") Integer id){
         try {
-            Word word1 = getWord(word);
-            wordRepository.deleteById(word1.getId());
-            return true;
-        }catch (Exception e){
+            wordRepository.deleteById(id);
+            return Response.status(200).entity("OK").build();
+        }catch (HTTPException e){
             System.out.println(e.getMessage());
-            return false;
+            return Response.status(e.getStatusCode()).entity(e.getMessage()).build();
+        }catch (Exception er){
+            System.out.println(er.getMessage());
+            return Response.status(500).entity(er.getMessage()).build();
         }
     }
 
-    @PostMapping("/word")
-    public Word addWord(@RequestBody WordForAdd wordForAdd){
+    @PostMapping("/words")
+    public ResponseEntity<?> addWord(@RequestBody WordForAdd wordForAdd){
         try{
             Word word = makeWord(wordForAdd);
-            return wordRepository.save(word);
-        }catch (Exception e){
+            return new ResponseEntity<>(word, HttpStatus.OK);
+        }catch (HTTPException e){
             System.out.println(e.getMessage());
-            return null;
+            return new ResponseEntity<>(null, HttpStatus.resolve(e.getStatusCode()));
+        }catch (Exception er){
+            System.out.println(er.getMessage());
+            return new ResponseEntity<>(null, HttpStatus.INTERNAL_SERVER_ERROR);
         }
     }
 
-    @PutMapping("/word")
-    public Word updateWord(@RequestBody WordForAdd wordForAdd){
+    @PutMapping("/words/{id}")
+    public ResponseEntity<?> updateWord(@RequestBody WordForAdd wordForAdd, @PathParam("id") Integer id){
         try{
             Word word = makeWord(wordForAdd);
-            if(wordRepository.existsByName(word.getName()))
-                deleteWord(word.getName());
-            return wordRepository.save(word);
-        }catch (Exception e){
+            word.setId(id);
+            if(wordRepository.existsById(id))
+                deleteWord(id);
+            return new ResponseEntity<>(word, HttpStatus.OK);
+        }catch (HTTPException e){
             System.out.println(e.getMessage());
-            return  null;
+            return new ResponseEntity<>(null, HttpStatus.resolve(e.getStatusCode()));
+        }catch (Exception er){
+            System.out.println(er.getMessage());
+            return new ResponseEntity<>(null, HttpStatus.INTERNAL_SERVER_ERROR);
         }
     }
 
