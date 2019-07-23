@@ -14,11 +14,11 @@ public class Word {
     @Column(name = "name")
     private String name;
 
-    @OneToOne(cascade = CascadeType.ALL)
+    @ManyToOne
     @JoinColumn(name = "lib_id")
     private Library library;
 
-    @OneToOne(cascade = CascadeType.ALL)
+    @ManyToOne
     @JoinColumn(name="translation_id")
     private Translation translation;
 

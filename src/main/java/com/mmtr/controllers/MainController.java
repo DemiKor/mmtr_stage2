@@ -8,14 +8,13 @@ import com.mmtr.models.WordForAdd;
 import com.mmtr.repositories.LibraryRepository;
 import com.mmtr.repositories.TranslationRepository;
 import com.mmtr.repositories.WordRepository;
-import net.bytebuddy.implementation.bytecode.Throw;
+import io.swagger.annotations.Api;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;
-import java.util.Formatter;
-import java.util.regex.Pattern;
 
+@Api(value = "Libraries", description = "API for libraries")
 @RestController
 public class MainController {
 

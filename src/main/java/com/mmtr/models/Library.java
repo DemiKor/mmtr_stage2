@@ -1,6 +1,8 @@
 package com.mmtr.models;
 
 import javax.persistence.*;
+import java.util.HashSet;
+import java.util.Set;
 
 @Entity
 @Table(name = "lib")
@@ -13,6 +15,9 @@ public class Library {
 
     @Column(name = "regex")
     private String regex;
+
+    @OneToMany(mappedBy = "library", cascade = CascadeType.ALL, fetch = FetchType.LAZY, orphanRemoval = true)
+    private Set<Word> words = new HashSet<Word>();
 
     public Library(String regex) {
         this.regex = regex;
@@ -32,11 +37,15 @@ public class Library {
         return id;
     }
 
-//    public Collection<Word> getWords() {
-//        return words;
-//    }
-//
-//    public void setWords(Collection<Word> words) {
-//        this.words = words;
-//    }
+    public void setId(Integer id){
+        this.id = id;
+    }
+
+    public Set<Word> getWords() {
+        return words;
+    }
+
+    public void setWords(Set<Word> words) {
+        this.words = words;
+    }
 }

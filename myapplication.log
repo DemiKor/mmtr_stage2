@@ -1,26 +1,193 @@
-2019-07-22 14:00:22.640  INFO 1160 --- [main] com.mmtr.App                             : Starting App on dkoryakovskiy with PID 1160 (K:\mmtr_stage2\build\classes\java\main started by dkoryakovskiy in K:\mmtr_stage2)
-2019-07-22 14:00:22.644  INFO 1160 --- [main] com.mmtr.App                             : No active profile set, falling back to default profiles: default
-2019-07-22 14:00:23.597  INFO 1160 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2019-07-22 14:00:23.656  INFO 1160 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 51ms. Found 3 repository interfaces.
-2019-07-22 14:00:24.186  INFO 1160 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2a493ca0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-07-22 14:00:24.419  INFO 1160 --- [main] org.eclipse.jetty.util.log               : Logging initialized @2671ms to org.eclipse.jetty.util.log.Slf4jLog
-2019-07-22 14:00:24.713  INFO 1160 --- [main] o.s.b.w.e.j.JettyServletWebServerFactory : Server initialized with port: 8181
-2019-07-22 14:00:24.716  INFO 1160 --- [main] org.eclipse.jetty.server.Server          : jetty-9.4.19.v20190610; built: 2019-06-10T16:30:51.723Z; git: afcf563148970e98786327af5e07c261fda175d3; jvm 1.8.0_202-b08
-2019-07-22 14:00:24.756  INFO 1160 --- [main] o.e.j.s.h.ContextHandler.application     : Initializing Spring embedded WebApplicationContext
-2019-07-22 14:00:25.412  INFO 1160 --- [main] org.eclipse.jetty.server.session         : DefaultSessionIdManager workerName=node0
-2019-07-22 14:00:25.412  INFO 1160 --- [main] org.eclipse.jetty.server.session         : No SessionScavenger set, using defaults
-2019-07-22 14:00:25.413  INFO 1160 --- [main] org.eclipse.jetty.server.session         : node0 Scavenging every 600000ms
-2019-07-22 14:00:25.420  INFO 1160 --- [main] o.e.jetty.server.handler.ContextHandler  : Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@78010562{application,/,[file:///C:/Users/dkoryakovskiy/AppData/Local/Temp/jetty-docbase.5918795823289028848.8181/],AVAILABLE}
-2019-07-22 14:00:25.421  INFO 1160 --- [main] org.eclipse.jetty.server.Server          : Started @3672ms
-2019-07-22 14:00:26.223  WARN 1160 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.AnnotationException: @Column(s) not allowed on a @OneToOne property: com.mmtr.models.Library.regex
-2019-07-22 14:00:26.227  INFO 1160 --- [main] org.eclipse.jetty.server.session         : node0 Stopped scavenging
-2019-07-22 14:00:26.230  INFO 1160 --- [main] o.e.jetty.server.handler.ContextHandler  : Stopped o.s.b.w.e.j.JettyEmbeddedWebAppContext@78010562{application,/,[file:///C:/Users/dkoryakovskiy/AppData/Local/Temp/jetty-docbase.5918795823289028848.8181/],UNAVAILABLE}
-2019-07-22 14:00:26.240  INFO 1160 --- [main] ConditionEvaluationReportLoggingListener : 
+2019-07-23 10:51:58.670  INFO 9884 --- [main] com.mmtr.App                             : Starting App on dkoryakovskiy with PID 9884 (K:\mmtr_stage2\build\classes\java\main started by dkoryakovskiy in K:\mmtr_stage2)
+2019-07-23 10:51:58.679  INFO 9884 --- [main] com.mmtr.App                             : No active profile set, falling back to default profiles: default
+2019-07-23 10:53:13.741  INFO 9444 --- [main] com.mmtr.App                             : Starting App on dkoryakovskiy with PID 9444 (K:\mmtr_stage2\build\classes\java\main started by dkoryakovskiy in K:\mmtr_stage2)
+2019-07-23 10:53:13.745  INFO 9444 --- [main] com.mmtr.App                             : No active profile set, falling back to default profiles: default
+2019-07-23 10:53:15.070  INFO 9444 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-23 10:53:15.185  INFO 9444 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 102ms. Found 3 repository interfaces.
+2019-07-23 10:53:15.805  INFO 9444 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$dff382f9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-23 10:53:16.082  INFO 9444 --- [main] org.eclipse.jetty.util.log               : Logging initialized @3505ms to org.eclipse.jetty.util.log.Slf4jLog
+2019-07-23 10:53:16.437  INFO 9444 --- [main] o.s.b.w.e.j.JettyServletWebServerFactory : Server initialized with port: 8181
+2019-07-23 10:53:16.440  INFO 9444 --- [main] org.eclipse.jetty.server.Server          : jetty-9.4.19.v20190610; built: 2019-06-10T16:30:51.723Z; git: afcf563148970e98786327af5e07c261fda175d3; jvm 1.8.0_202-b08
+2019-07-23 10:53:16.481  INFO 9444 --- [main] o.e.j.s.h.ContextHandler.application     : Initializing Spring embedded WebApplicationContext
+2019-07-23 10:53:17.187  INFO 9444 --- [main] org.eclipse.jetty.server.session         : DefaultSessionIdManager workerName=node0
+2019-07-23 10:53:17.187  INFO 9444 --- [main] org.eclipse.jetty.server.session         : No SessionScavenger set, using defaults
+2019-07-23 10:53:17.189  INFO 9444 --- [main] org.eclipse.jetty.server.session         : node0 Scavenging every 660000ms
+2019-07-23 10:53:17.198  INFO 9444 --- [main] o.e.jetty.server.handler.ContextHandler  : Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@57c00115{application,/,[file:///C:/Users/dkoryakovskiy/AppData/Local/Temp/jetty-docbase.6509346862005437507.8181/, jar:file:/K:/gradle-5.2/caches/modules-2/files-2.1/io.springfox/springfox-swagger-ui/2.9.2/d542382a88ff3ea8d4032c28b2b0325797fada7d/springfox-swagger-ui-2.9.2.jar!/META-INF/resources],AVAILABLE}
+2019-07-23 10:53:17.199  INFO 9444 --- [main] org.eclipse.jetty.server.Server          : Started @4623ms
+2019-07-23 10:53:18.859  INFO 9444 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-07-23 10:53:18.989  INFO 9444 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-07-23 10:53:19.106  INFO 9444 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-07-23 10:53:20.189  INFO 9444 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-07-23 10:53:20.303  INFO 9444 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-07-23 10:53:20.492  WARN 9444 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-07-23 10:53:20.899  INFO 9444 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-07-23 10:53:21.111  INFO 9444 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-07-23 10:53:21.186  INFO 9444 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-07-23 10:53:21.523  INFO 9444 --- [main] o.e.j.s.h.ContextHandler.application     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-23 10:53:21.581  INFO 9444 --- [main] o.e.jetty.server.AbstractConnector       : Started ServerConnector@5e519ad3{HTTP/1.1,[http/1.1]}{0.0.0.0:8181}
+2019-07-23 10:53:21.583  INFO 9444 --- [main] o.s.b.web.embedded.jetty.JettyWebServer  : Jetty started on port(s) 8181 (http/1.1) with context path '/'
+2019-07-23 10:53:21.586  INFO 9444 --- [main] com.mmtr.App                             : Started App in 8.562 seconds (JVM running for 9.009)
+2019-07-23 11:27:26.602  INFO 16232 --- [main] com.mmtr.App                             : Starting App on dkoryakovskiy with PID 16232 (K:\mmtr_stage2\build\classes\java\main started by dkoryakovskiy in K:\mmtr_stage2)
+2019-07-23 11:27:26.604  INFO 16232 --- [main] com.mmtr.App                             : No active profile set, falling back to default profiles: default
+2019-07-23 11:27:27.872  INFO 16232 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-23 11:27:27.983  INFO 16232 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 101ms. Found 3 repository interfaces.
+2019-07-23 11:27:28.556  INFO 16232 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9c660e96] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-23 11:27:28.834  INFO 16232 --- [main] org.eclipse.jetty.util.log               : Logging initialized @3068ms to org.eclipse.jetty.util.log.Slf4jLog
+2019-07-23 11:27:29.156  INFO 16232 --- [main] o.s.b.w.e.j.JettyServletWebServerFactory : Server initialized with port: 8181
+2019-07-23 11:27:29.159  INFO 16232 --- [main] org.eclipse.jetty.server.Server          : jetty-9.4.19.v20190610; built: 2019-06-10T16:30:51.723Z; git: afcf563148970e98786327af5e07c261fda175d3; jvm 1.8.0_202-b08
+2019-07-23 11:27:29.199  INFO 16232 --- [main] o.e.j.s.h.ContextHandler.application     : Initializing Spring embedded WebApplicationContext
+2019-07-23 11:27:29.971  INFO 16232 --- [main] org.eclipse.jetty.server.session         : DefaultSessionIdManager workerName=node0
+2019-07-23 11:27:29.972  INFO 16232 --- [main] org.eclipse.jetty.server.session         : No SessionScavenger set, using defaults
+2019-07-23 11:27:29.973  INFO 16232 --- [main] org.eclipse.jetty.server.session         : node0 Scavenging every 660000ms
+2019-07-23 11:27:29.981  INFO 16232 --- [main] o.e.jetty.server.handler.ContextHandler  : Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@4fe533ff{application,/,[file:///C:/Users/dkoryakovskiy/AppData/Local/Temp/jetty-docbase.345435372762087610.8181/, jar:file:/K:/gradle-5.2/caches/modules-2/files-2.1/io.springfox/springfox-swagger-ui/2.9.2/d542382a88ff3ea8d4032c28b2b0325797fada7d/springfox-swagger-ui-2.9.2.jar!/META-INF/resources],AVAILABLE}
+2019-07-23 11:27:29.982  INFO 16232 --- [main] org.eclipse.jetty.server.Server          : Started @4215ms
+2019-07-23 11:27:31.305  INFO 16232 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-07-23 11:27:31.566  INFO 16232 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-07-23 11:27:31.691  INFO 16232 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-07-23 11:27:32.637  INFO 16232 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-07-23 11:27:32.747  INFO 16232 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-07-23 11:27:32.941  WARN 16232 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-07-23 11:27:33.411  INFO 16232 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-07-23 11:27:33.587  INFO 16232 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-07-23 11:27:33.642  INFO 16232 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-07-23 11:27:33.872  INFO 16232 --- [main] o.e.j.s.h.ContextHandler.application     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-23 11:27:33.929  INFO 16232 --- [main] o.e.jetty.server.AbstractConnector       : Started ServerConnector@58472096{HTTP/1.1,[http/1.1]}{0.0.0.0:8181}
+2019-07-23 11:27:33.933  INFO 16232 --- [main] o.s.b.web.embedded.jetty.JettyWebServer  : Jetty started on port(s) 8181 (http/1.1) with context path '/'
+2019-07-23 11:27:33.936  INFO 16232 --- [main] com.mmtr.App                             : Started App in 7.764 seconds (JVM running for 8.17)
+2019-07-23 11:51:42.705 ERROR 16232 --- [qtp641980258-21] o.h.engine.jdbc.spi.SqlExceptionHelper   : ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "translation_name_key"
+  Detail: Ключ "(name)=()" уже существует.
+2019-07-23 11:57:13.093  INFO 7984 --- [main] com.mmtr.App                             : Starting App on dkoryakovskiy with PID 7984 (K:\mmtr_stage2\build\classes\java\main started by dkoryakovskiy in K:\mmtr_stage2)
+2019-07-23 11:57:13.097  INFO 7984 --- [main] com.mmtr.App                             : No active profile set, falling back to default profiles: default
+2019-07-23 11:57:14.582  INFO 7984 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-23 11:57:14.691  INFO 7984 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 93ms. Found 3 repository interfaces.
+2019-07-23 11:57:15.407  INFO 7984 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8271ee1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-23 11:57:15.825  INFO 7984 --- [main] org.eclipse.jetty.util.log               : Logging initialized @3835ms to org.eclipse.jetty.util.log.Slf4jLog
+2019-07-23 11:57:16.198  INFO 7984 --- [main] o.s.b.w.e.j.JettyServletWebServerFactory : Server initialized with port: 8181
+2019-07-23 11:57:16.201  INFO 7984 --- [main] org.eclipse.jetty.server.Server          : jetty-9.4.19.v20190610; built: 2019-06-10T16:30:51.723Z; git: afcf563148970e98786327af5e07c261fda175d3; jvm 1.8.0_202-b08
+2019-07-23 11:57:16.248  INFO 7984 --- [main] o.e.j.s.h.ContextHandler.application     : Initializing Spring embedded WebApplicationContext
+2019-07-23 11:57:17.039  INFO 7984 --- [main] org.eclipse.jetty.server.session         : DefaultSessionIdManager workerName=node0
+2019-07-23 11:57:17.040  INFO 7984 --- [main] org.eclipse.jetty.server.session         : No SessionScavenger set, using defaults
+2019-07-23 11:57:17.041  INFO 7984 --- [main] org.eclipse.jetty.server.session         : node0 Scavenging every 600000ms
+2019-07-23 11:57:17.050  INFO 7984 --- [main] o.e.jetty.server.handler.ContextHandler  : Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@71936a92{application,/,[file:///C:/Users/dkoryakovskiy/AppData/Local/Temp/jetty-docbase.5302902192499047793.8181/, jar:file:/K:/gradle-5.2/caches/modules-2/files-2.1/io.springfox/springfox-swagger-ui/2.9.2/d542382a88ff3ea8d4032c28b2b0325797fada7d/springfox-swagger-ui-2.9.2.jar!/META-INF/resources],AVAILABLE}
+2019-07-23 11:57:17.051  INFO 7984 --- [main] org.eclipse.jetty.server.Server          : Started @5062ms
+2019-07-23 11:57:18.686  INFO 7984 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-07-23 11:57:18.935  INFO 7984 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-07-23 11:57:19.057  INFO 7984 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-07-23 11:57:20.224  INFO 7984 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-07-23 11:57:20.375  INFO 7984 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-07-23 11:57:20.592  WARN 7984 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-07-23 11:57:21.239  INFO 7984 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-07-23 11:57:21.277  INFO 7984 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-07-23 11:57:21.338  INFO 7984 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-07-23 11:57:21.630  INFO 7984 --- [main] o.e.j.s.h.ContextHandler.application     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-23 11:57:21.672  INFO 7984 --- [main] o.e.jetty.server.AbstractConnector       : Started ServerConnector@7e1ffe70{HTTP/1.1,[http/1.1]}{0.0.0.0:8181}
+2019-07-23 11:57:21.675  INFO 7984 --- [main] o.s.b.web.embedded.jetty.JettyWebServer  : Jetty started on port(s) 8181 (http/1.1) with context path '/'
+2019-07-23 11:57:21.678  INFO 7984 --- [main] com.mmtr.App                             : Started App in 9.159 seconds (JVM running for 9.688)
+2019-07-23 11:59:08.749  INFO 11824 --- [main] com.mmtr.App                             : Starting App on dkoryakovskiy with PID 11824 (K:\mmtr_stage2\build\classes\java\main started by dkoryakovskiy in K:\mmtr_stage2)
+2019-07-23 11:59:08.754  INFO 11824 --- [main] com.mmtr.App                             : No active profile set, falling back to default profiles: default
+2019-07-23 11:59:10.296  INFO 11824 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-23 11:59:10.421  INFO 11824 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 112ms. Found 3 repository interfaces.
+2019-07-23 11:59:11.171  INFO 11824 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$856a7738] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-23 11:59:11.650  INFO 11824 --- [main] org.eclipse.jetty.util.log               : Logging initialized @4030ms to org.eclipse.jetty.util.log.Slf4jLog
+2019-07-23 11:59:12.086  INFO 11824 --- [main] o.s.b.w.e.j.JettyServletWebServerFactory : Server initialized with port: 8181
+2019-07-23 11:59:12.090  INFO 11824 --- [main] org.eclipse.jetty.server.Server          : jetty-9.4.19.v20190610; built: 2019-06-10T16:30:51.723Z; git: afcf563148970e98786327af5e07c261fda175d3; jvm 1.8.0_202-b08
+2019-07-23 11:59:12.134  INFO 11824 --- [main] o.e.j.s.h.ContextHandler.application     : Initializing Spring embedded WebApplicationContext
+2019-07-23 11:59:13.028  INFO 11824 --- [main] org.eclipse.jetty.server.session         : DefaultSessionIdManager workerName=node0
+2019-07-23 11:59:13.028  INFO 11824 --- [main] org.eclipse.jetty.server.session         : No SessionScavenger set, using defaults
+2019-07-23 11:59:13.030  INFO 11824 --- [main] org.eclipse.jetty.server.session         : node0 Scavenging every 600000ms
+2019-07-23 11:59:13.044  INFO 11824 --- [main] o.e.jetty.server.handler.ContextHandler  : Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@45037e16{application,/,[file:///C:/Users/dkoryakovskiy/AppData/Local/Temp/jetty-docbase.4648792193419492094.8181/, jar:file:/K:/gradle-5.2/caches/modules-2/files-2.1/io.springfox/springfox-swagger-ui/2.9.2/d542382a88ff3ea8d4032c28b2b0325797fada7d/springfox-swagger-ui-2.9.2.jar!/META-INF/resources],AVAILABLE}
+2019-07-23 11:59:13.045  INFO 11824 --- [main] org.eclipse.jetty.server.Server          : Started @5426ms
+2019-07-23 11:59:14.821  INFO 11824 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-07-23 11:59:14.947  INFO 11824 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-07-23 11:59:15.071  INFO 11824 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-07-23 11:59:16.394  INFO 11824 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-07-23 11:59:16.568  INFO 11824 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-07-23 11:59:16.804  WARN 11824 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-07-23 11:59:17.491  INFO 11824 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-07-23 11:59:17.542  INFO 11824 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-07-23 11:59:17.611  INFO 11824 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-07-23 11:59:17.869  INFO 11824 --- [main] o.e.j.s.h.ContextHandler.application     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-23 11:59:17.943  INFO 11824 --- [main] o.e.jetty.server.AbstractConnector       : Started ServerConnector@1235151c{HTTP/1.1,[http/1.1]}{0.0.0.0:8181}
+2019-07-23 11:59:17.948  INFO 11824 --- [main] o.s.b.web.embedded.jetty.JettyWebServer  : Jetty started on port(s) 8181 (http/1.1) with context path '/'
+2019-07-23 11:59:17.952  INFO 11824 --- [main] com.mmtr.App                             : Started App in 9.779 seconds (JVM running for 10.333)
+2019-07-23 12:00:36.027  INFO 3992 --- [main] com.mmtr.App                             : Starting App on dkoryakovskiy with PID 3992 (K:\mmtr_stage2\build\classes\java\main started by dkoryakovskiy in K:\mmtr_stage2)
+2019-07-23 12:00:36.032  INFO 3992 --- [main] com.mmtr.App                             : No active profile set, falling back to default profiles: default
+2019-07-23 12:00:37.544  INFO 3992 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-23 12:00:37.660  INFO 3992 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 104ms. Found 3 repository interfaces.
+2019-07-23 12:00:38.341  INFO 3992 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3cfdcf9d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-23 12:00:38.663  INFO 3992 --- [main] org.eclipse.jetty.util.log               : Logging initialized @3631ms to org.eclipse.jetty.util.log.Slf4jLog
+2019-07-23 12:00:39.017  INFO 3992 --- [main] o.s.b.w.e.j.JettyServletWebServerFactory : Server initialized with port: 8181
+2019-07-23 12:00:39.021  INFO 3992 --- [main] org.eclipse.jetty.server.Server          : jetty-9.4.19.v20190610; built: 2019-06-10T16:30:51.723Z; git: afcf563148970e98786327af5e07c261fda175d3; jvm 1.8.0_202-b08
+2019-07-23 12:00:39.079  INFO 3992 --- [main] o.e.j.s.h.ContextHandler.application     : Initializing Spring embedded WebApplicationContext
+2019-07-23 12:00:39.977  INFO 3992 --- [main] org.eclipse.jetty.server.session         : DefaultSessionIdManager workerName=node0
+2019-07-23 12:00:39.977  INFO 3992 --- [main] org.eclipse.jetty.server.session         : No SessionScavenger set, using defaults
+2019-07-23 12:00:39.979  INFO 3992 --- [main] org.eclipse.jetty.server.session         : node0 Scavenging every 660000ms
+2019-07-23 12:00:39.991  INFO 3992 --- [main] o.e.jetty.server.handler.ContextHandler  : Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@2dbfa972{application,/,[file:///C:/Users/dkoryakovskiy/AppData/Local/Temp/jetty-docbase.4518822066124345516.8181/, jar:file:/K:/gradle-5.2/caches/modules-2/files-2.1/io.springfox/springfox-swagger-ui/2.9.2/d542382a88ff3ea8d4032c28b2b0325797fada7d/springfox-swagger-ui-2.9.2.jar!/META-INF/resources],AVAILABLE}
+2019-07-23 12:00:39.992  INFO 3992 --- [main] org.eclipse.jetty.server.Server          : Started @4960ms
+2019-07-23 12:00:41.623  INFO 3992 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-07-23 12:00:41.747  INFO 3992 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-07-23 12:00:41.871  INFO 3992 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-07-23 12:00:43.081  INFO 3992 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-07-23 12:00:43.231  INFO 3992 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-07-23 12:00:43.458  WARN 3992 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-07-23 12:00:44.148  INFO 3992 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-07-23 12:00:44.203  INFO 3992 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-07-23 12:00:44.272  INFO 3992 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-07-23 12:00:44.549  INFO 3992 --- [main] o.e.j.s.h.ContextHandler.application     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-23 12:00:44.595  INFO 3992 --- [main] o.e.jetty.server.AbstractConnector       : Started ServerConnector@472d0f4{HTTP/1.1,[http/1.1]}{0.0.0.0:8181}
+2019-07-23 12:00:44.598  INFO 3992 --- [main] o.s.b.web.embedded.jetty.JettyWebServer  : Jetty started on port(s) 8181 (http/1.1) with context path '/'
+2019-07-23 12:00:44.601  INFO 3992 --- [main] com.mmtr.App                             : Started App in 9.104 seconds (JVM running for 9.569)
+2019-07-23 12:02:26.917  WARN 3992 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m45s74ms514µs).
+2019-07-23 12:03:38.514  INFO 10528 --- [main] com.mmtr.App                             : Starting App on dkoryakovskiy with PID 10528 (K:\mmtr_stage2\build\classes\java\main started by dkoryakovskiy in K:\mmtr_stage2)
+2019-07-23 12:03:38.518  INFO 10528 --- [main] com.mmtr.App                             : No active profile set, falling back to default profiles: default
+2019-07-23 12:03:40.173  INFO 10528 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-23 12:03:40.337  INFO 10528 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 152ms. Found 3 repository interfaces.
+2019-07-23 12:03:41.145  INFO 10528 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$29883879] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-23 12:03:41.785  INFO 10528 --- [main] org.eclipse.jetty.util.log               : Logging initialized @4286ms to org.eclipse.jetty.util.log.Slf4jLog
+2019-07-23 12:03:42.308  INFO 10528 --- [main] o.s.b.w.e.j.JettyServletWebServerFactory : Server initialized with port: 8181
+2019-07-23 12:03:42.311  INFO 10528 --- [main] org.eclipse.jetty.server.Server          : jetty-9.4.19.v20190610; built: 2019-06-10T16:30:51.723Z; git: afcf563148970e98786327af5e07c261fda175d3; jvm 1.8.0_202-b08
+2019-07-23 12:03:42.359  INFO 10528 --- [main] o.e.j.s.h.ContextHandler.application     : Initializing Spring embedded WebApplicationContext
+2019-07-23 12:03:43.217  INFO 10528 --- [main] org.eclipse.jetty.server.session         : DefaultSessionIdManager workerName=node0
+2019-07-23 12:03:43.218  INFO 10528 --- [main] org.eclipse.jetty.server.session         : No SessionScavenger set, using defaults
+2019-07-23 12:03:43.220  INFO 10528 --- [main] org.eclipse.jetty.server.session         : node0 Scavenging every 600000ms
+2019-07-23 12:03:43.234  INFO 10528 --- [main] o.e.jetty.server.handler.ContextHandler  : Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@5111de7c{application,/,[file:///C:/Users/dkoryakovskiy/AppData/Local/Temp/jetty-docbase.8438808318086105690.8181/, jar:file:/K:/gradle-5.2/caches/modules-2/files-2.1/io.springfox/springfox-swagger-ui/2.9.2/d542382a88ff3ea8d4032c28b2b0325797fada7d/springfox-swagger-ui-2.9.2.jar!/META-INF/resources],AVAILABLE}
+2019-07-23 12:03:43.235  INFO 10528 --- [main] org.eclipse.jetty.server.Server          : Started @5739ms
+2019-07-23 12:03:44.802  INFO 10528 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-07-23 12:03:45.053  INFO 10528 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-07-23 12:03:45.187  INFO 10528 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-07-23 12:03:46.375  INFO 10528 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-07-23 12:03:46.517  INFO 10528 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-07-23 12:03:46.753  WARN 10528 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-07-23 12:03:47.431  INFO 10528 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-07-23 12:03:47.470  INFO 10528 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-07-23 12:03:47.533  INFO 10528 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-07-23 12:03:47.808  INFO 10528 --- [main] o.e.j.s.h.ContextHandler.application     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-23 12:03:47.868  INFO 10528 --- [main] o.e.jetty.server.AbstractConnector       : Started ServerConnector@4041739c{HTTP/1.1,[http/1.1]}{0.0.0.0:8181}
+2019-07-23 12:03:47.874  INFO 10528 --- [main] o.s.b.web.embedded.jetty.JettyWebServer  : Jetty started on port(s) 8181 (http/1.1) with context path '/'
+2019-07-23 12:03:47.877  INFO 10528 --- [main] com.mmtr.App                             : Started App in 9.887 seconds (JVM running for 10.38)
+2019-07-23 12:05:41.178  INFO 10052 --- [main] com.mmtr.App                             : Starting App on dkoryakovskiy with PID 10052 (K:\mmtr_stage2\build\classes\java\main started by dkoryakovskiy in K:\mmtr_stage2)
+2019-07-23 12:05:41.182  INFO 10052 --- [main] com.mmtr.App                             : No active profile set, falling back to default profiles: default
+2019-07-23 12:05:42.608  INFO 10052 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-23 12:05:42.711  INFO 10052 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 89ms. Found 3 repository interfaces.
+2019-07-23 12:05:43.375  INFO 10052 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7fcca4de] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-23 12:05:43.714  INFO 10052 --- [main] org.eclipse.jetty.util.log               : Logging initialized @3523ms to org.eclipse.jetty.util.log.Slf4jLog
+2019-07-23 12:05:44.106  INFO 10052 --- [main] o.s.b.w.e.j.JettyServletWebServerFactory : Server initialized with port: 8181
+2019-07-23 12:05:44.109  INFO 10052 --- [main] org.eclipse.jetty.server.Server          : jetty-9.4.19.v20190610; built: 2019-06-10T16:30:51.723Z; git: afcf563148970e98786327af5e07c261fda175d3; jvm 1.8.0_202-b08
+2019-07-23 12:05:44.150  INFO 10052 --- [main] o.e.j.s.h.ContextHandler.application     : Initializing Spring embedded WebApplicationContext
+2019-07-23 12:05:44.891  INFO 10052 --- [main] org.eclipse.jetty.server.session         : DefaultSessionIdManager workerName=node0
+2019-07-23 12:05:44.892  INFO 10052 --- [main] org.eclipse.jetty.server.session         : No SessionScavenger set, using defaults
+2019-07-23 12:05:44.894  INFO 10052 --- [main] org.eclipse.jetty.server.session         : node0 Scavenging every 660000ms
+2019-07-23 12:05:44.906  INFO 10052 --- [main] o.e.jetty.server.handler.ContextHandler  : Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@2bd8f7db{application,/,[file:///C:/Users/dkoryakovskiy/AppData/Local/Temp/jetty-docbase.752092286884234726.8181/, jar:file:/K:/gradle-5.2/caches/modules-2/files-2.1/io.springfox/springfox-swagger-ui/2.9.2/d542382a88ff3ea8d4032c28b2b0325797fada7d/springfox-swagger-ui-2.9.2.jar!/META-INF/resources],AVAILABLE}
+2019-07-23 12:05:44.907  INFO 10052 --- [main] org.eclipse.jetty.server.Server          : Started @4716ms
+2019-07-23 12:05:45.924  WARN 10052 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.AnnotationException: mappedBy reference an unknown target entity property: com.mmtr.models.Word.lib in com.mmtr.models.Library.attachments
+2019-07-23 12:05:45.931  INFO 10052 --- [main] org.eclipse.jetty.server.session         : node0 Stopped scavenging
+2019-07-23 12:05:45.935  INFO 10052 --- [main] o.e.jetty.server.handler.ContextHandler  : Stopped o.s.b.w.e.j.JettyEmbeddedWebAppContext@2bd8f7db{application,/,[file:///C:/Users/dkoryakovskiy/AppData/Local/Temp/jetty-docbase.752092286884234726.8181/, jar:file:/K:/gradle-5.2/caches/modules-2/files-2.1/io.springfox/springfox-swagger-ui/2.9.2/d542382a88ff3ea8d4032c28b2b0325797fada7d/springfox-swagger-ui-2.9.2.jar!/META-INF/resources],UNAVAILABLE}
+2019-07-23 12:05:45.947  INFO 10052 --- [main] ConditionEvaluationReportLoggingListener : 
 
 Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-2019-07-22 14:00:26.244 ERROR 1160 --- [main] o.s.boot.SpringApplication               : Application run failed
+2019-07-23 12:05:45.958 ERROR 10052 --- [main] o.s.boot.SpringApplication               : Application run failed
 
-org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.AnnotationException: @Column(s) not allowed on a @OneToOne property: com.mmtr.models.Library.regex
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.AnnotationException: mappedBy reference an unknown target entity property: com.mmtr.models.Word.lib in com.mmtr.models.Library.attachments
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1778) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
@@ -38,13 +205,13 @@ org.springframework.beans.factory.BeanCreationException: Error creating bean wit
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1213) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1202) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
 	at com.mmtr.App.main(App.java:9) [main/:na]
-Caused by: org.hibernate.AnnotationException: @Column(s) not allowed on a @OneToOne property: com.mmtr.models.Library.regex
-	at org.hibernate.cfg.AnnotationBinder.processElementAnnotations(AnnotationBinder.java:1812) ~[hibernate-core-5.4.3.Final.jar:5.4.3.Final]
-	at org.hibernate.cfg.AnnotationBinder.processIdPropertiesIfNotAlready(AnnotationBinder.java:975) ~[hibernate-core-5.4.3.Final.jar:5.4.3.Final]
-	at org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:802) ~[hibernate-core-5.4.3.Final.jar:5.4.3.Final]
-	at org.hibernate.boot.model.source.internal.annotations.AnnotationMetadataSourceProcessorImpl.processEntityHierarchies(AnnotationMetadataSourceProcessorImpl.java:254) ~[hibernate-core-5.4.3.Final.jar:5.4.3.Final]
-	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess$1.processEntityHierarchies(MetadataBuildingProcess.java:230) ~[hibernate-core-5.4.3.Final.jar:5.4.3.Final]
-	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:273) ~[hibernate-core-5.4.3.Final.jar:5.4.3.Final]
+Caused by: org.hibernate.AnnotationException: mappedBy reference an unknown target entity property: com.mmtr.models.Word.lib in com.mmtr.models.Library.attachments
+	at org.hibernate.cfg.annotations.CollectionBinder.bindStarToManySecondPass(CollectionBinder.java:842) ~[hibernate-core-5.4.3.Final.jar:5.4.3.Final]
+	at org.hibernate.cfg.annotations.CollectionBinder$1.secondPass(CollectionBinder.java:793) ~[hibernate-core-5.4.3.Final.jar:5.4.3.Final]
+	at org.hibernate.cfg.CollectionSecondPass.doSecondPass(CollectionSecondPass.java:53) ~[hibernate-core-5.4.3.Final.jar:5.4.3.Final]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.processSecondPasses(InFlightMetadataCollectorImpl.java:1684) ~[hibernate-core-5.4.3.Final.jar:5.4.3.Final]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.processSecondPasses(InFlightMetadataCollectorImpl.java:1652) ~[hibernate-core-5.4.3.Final.jar:5.4.3.Final]
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:286) ~[hibernate-core-5.4.3.Final.jar:5.4.3.Final]
 	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:900) ~[hibernate-core-5.4.3.Final.jar:5.4.3.Final]
 	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:931) ~[hibernate-core-5.4.3.Final.jar:5.4.3.Final]
 	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:57) ~[spring-orm-5.1.8.RELEASE.jar:5.1.8.RELEASE]
@@ -56,357 +223,222 @@ Caused by: org.hibernate.AnnotationException: @Column(s) not allowed on a @OneTo
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1774) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
 	... 16 common frames omitted
 
-2019-07-22 14:01:12.257  INFO 10632 --- [main] com.mmtr.App                             : Starting App on dkoryakovskiy with PID 10632 (K:\mmtr_stage2\build\classes\java\main started by dkoryakovskiy in K:\mmtr_stage2)
-2019-07-22 14:01:12.260  INFO 10632 --- [main] com.mmtr.App                             : No active profile set, falling back to default profiles: default
-2019-07-22 14:01:13.192  INFO 10632 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2019-07-22 14:01:13.254  INFO 10632 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 54ms. Found 3 repository interfaces.
-2019-07-22 14:01:13.739  INFO 10632 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d99ff66a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-07-22 14:01:13.959  INFO 10632 --- [main] org.eclipse.jetty.util.log               : Logging initialized @2547ms to org.eclipse.jetty.util.log.Slf4jLog
-2019-07-22 14:01:14.296  INFO 10632 --- [main] o.s.b.w.e.j.JettyServletWebServerFactory : Server initialized with port: 8181
-2019-07-22 14:01:14.299  INFO 10632 --- [main] org.eclipse.jetty.server.Server          : jetty-9.4.19.v20190610; built: 2019-06-10T16:30:51.723Z; git: afcf563148970e98786327af5e07c261fda175d3; jvm 1.8.0_202-b08
-2019-07-22 14:01:14.339  INFO 10632 --- [main] o.e.j.s.h.ContextHandler.application     : Initializing Spring embedded WebApplicationContext
-2019-07-22 14:01:14.941  INFO 10632 --- [main] org.eclipse.jetty.server.session         : DefaultSessionIdManager workerName=node0
-2019-07-22 14:01:14.941  INFO 10632 --- [main] org.eclipse.jetty.server.session         : No SessionScavenger set, using defaults
-2019-07-22 14:01:14.943  INFO 10632 --- [main] org.eclipse.jetty.server.session         : node0 Scavenging every 660000ms
-2019-07-22 14:01:14.951  INFO 10632 --- [main] o.e.jetty.server.handler.ContextHandler  : Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@54cf7c6a{application,/,[file:///C:/Users/dkoryakovskiy/AppData/Local/Temp/jetty-docbase.4297855613922121582.8181/],AVAILABLE}
-2019-07-22 14:01:14.952  INFO 10632 --- [main] org.eclipse.jetty.server.Server          : Started @3540ms
-2019-07-22 14:01:15.768  WARN 10632 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.AnnotationException: @Column(s) not allowed on a @OneToOne property: com.mmtr.models.Library.regex
-2019-07-22 14:01:15.773  INFO 10632 --- [main] org.eclipse.jetty.server.session         : node0 Stopped scavenging
-2019-07-22 14:01:15.775  INFO 10632 --- [main] o.e.jetty.server.handler.ContextHandler  : Stopped o.s.b.w.e.j.JettyEmbeddedWebAppContext@54cf7c6a{application,/,[file:///C:/Users/dkoryakovskiy/AppData/Local/Temp/jetty-docbase.4297855613922121582.8181/],UNAVAILABLE}
-2019-07-22 14:01:15.786  INFO 10632 --- [main] ConditionEvaluationReportLoggingListener : 
-
-Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-2019-07-22 14:01:15.792 ERROR 10632 --- [main] o.s.boot.SpringApplication               : Application run failed
-
-org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.AnnotationException: @Column(s) not allowed on a @OneToOne property: com.mmtr.models.Library.regex
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1778) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
-	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1105) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
-	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140) ~[spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:742) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:389) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1213) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1202) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
-	at com.mmtr.App.main(App.java:9) [main/:na]
-Caused by: org.hibernate.AnnotationException: @Column(s) not allowed on a @OneToOne property: com.mmtr.models.Library.regex
-	at org.hibernate.cfg.AnnotationBinder.processElementAnnotations(AnnotationBinder.java:1812) ~[hibernate-core-5.4.3.Final.jar:5.4.3.Final]
-	at org.hibernate.cfg.AnnotationBinder.processIdPropertiesIfNotAlready(AnnotationBinder.java:975) ~[hibernate-core-5.4.3.Final.jar:5.4.3.Final]
-	at org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:802) ~[hibernate-core-5.4.3.Final.jar:5.4.3.Final]
-	at org.hibernate.boot.model.source.internal.annotations.AnnotationMetadataSourceProcessorImpl.processEntityHierarchies(AnnotationMetadataSourceProcessorImpl.java:254) ~[hibernate-core-5.4.3.Final.jar:5.4.3.Final]
-	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess$1.processEntityHierarchies(MetadataBuildingProcess.java:230) ~[hibernate-core-5.4.3.Final.jar:5.4.3.Final]
-	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:273) ~[hibernate-core-5.4.3.Final.jar:5.4.3.Final]
-	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:900) ~[hibernate-core-5.4.3.Final.jar:5.4.3.Final]
-	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:931) ~[hibernate-core-5.4.3.Final.jar:5.4.3.Final]
-	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:57) ~[spring-orm-5.1.8.RELEASE.jar:5.1.8.RELEASE]
-	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365) ~[spring-orm-5.1.8.RELEASE.jar:5.1.8.RELEASE]
-	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:390) ~[spring-orm-5.1.8.RELEASE.jar:5.1.8.RELEASE]
-	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:377) ~[spring-orm-5.1.8.RELEASE.jar:5.1.8.RELEASE]
-	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341) ~[spring-orm-5.1.8.RELEASE.jar:5.1.8.RELEASE]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1837) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1774) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
-	... 16 common frames omitted
-
-2019-07-22 14:01:51.486  INFO 10780 --- [main] com.mmtr.App                             : Starting App on dkoryakovskiy with PID 10780 (K:\mmtr_stage2\build\classes\java\main started by dkoryakovskiy in K:\mmtr_stage2)
-2019-07-22 14:01:51.490  INFO 10780 --- [main] com.mmtr.App                             : No active profile set, falling back to default profiles: default
-2019-07-22 14:01:52.436  INFO 10780 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2019-07-22 14:01:52.497  INFO 10780 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 53ms. Found 3 repository interfaces.
-2019-07-22 14:01:53.073  INFO 10780 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7361b390] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-07-22 14:01:53.311  INFO 10780 --- [main] org.eclipse.jetty.util.log               : Logging initialized @2708ms to org.eclipse.jetty.util.log.Slf4jLog
-2019-07-22 14:01:53.620  INFO 10780 --- [main] o.s.b.w.e.j.JettyServletWebServerFactory : Server initialized with port: 8181
-2019-07-22 14:01:53.623  INFO 10780 --- [main] org.eclipse.jetty.server.Server          : jetty-9.4.19.v20190610; built: 2019-06-10T16:30:51.723Z; git: afcf563148970e98786327af5e07c261fda175d3; jvm 1.8.0_202-b08
-2019-07-22 14:01:53.659  INFO 10780 --- [main] o.e.j.s.h.ContextHandler.application     : Initializing Spring embedded WebApplicationContext
-2019-07-22 14:01:54.313  INFO 10780 --- [main] org.eclipse.jetty.server.session         : DefaultSessionIdManager workerName=node0
-2019-07-22 14:01:54.313  INFO 10780 --- [main] org.eclipse.jetty.server.session         : No SessionScavenger set, using defaults
-2019-07-22 14:01:54.314  INFO 10780 --- [main] org.eclipse.jetty.server.session         : node0 Scavenging every 660000ms
-2019-07-22 14:01:54.322  INFO 10780 --- [main] o.e.jetty.server.handler.ContextHandler  : Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@10823d72{application,/,[file:///C:/Users/dkoryakovskiy/AppData/Local/Temp/jetty-docbase.4647740810362478363.8181/],AVAILABLE}
-2019-07-22 14:01:54.322  INFO 10780 --- [main] org.eclipse.jetty.server.Server          : Started @3720ms
-2019-07-22 14:01:55.517  INFO 10780 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2019-07-22 14:01:55.731  INFO 10780 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2019-07-22 14:01:55.874  INFO 10780 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2019-07-22 14:01:56.647  INFO 10780 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-07-22 14:01:56.723  WARN 10780 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2019-07-22 14:01:57.189  INFO 10780 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
-2019-07-22 14:01:57.253  INFO 10780 --- [main] o.e.j.s.h.ContextHandler.application     : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2019-07-22 14:01:57.299  INFO 10780 --- [main] o.e.jetty.server.AbstractConnector       : Started ServerConnector@7918c7f8{HTTP/1.1,[http/1.1]}{0.0.0.0:8181}
-2019-07-22 14:01:57.302  INFO 10780 --- [main] o.s.b.web.embedded.jetty.JettyWebServer  : Jetty started on port(s) 8181 (http/1.1) with context path '/'
-2019-07-22 14:01:57.304  INFO 10780 --- [main] com.mmtr.App                             : Started App in 6.266 seconds (JVM running for 6.701)
-2019-07-22 14:17:25.426  INFO 9304 --- [main] com.mmtr.App                             : Starting App on dkoryakovskiy with PID 9304 (K:\mmtr_stage2\build\classes\java\main started by dkoryakovskiy in K:\mmtr_stage2)
-2019-07-22 14:17:25.429  INFO 9304 --- [main] com.mmtr.App                             : No active profile set, falling back to default profiles: default
-2019-07-22 14:17:26.400  INFO 9304 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2019-07-22 14:17:26.462  INFO 9304 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 54ms. Found 3 repository interfaces.
-2019-07-22 14:17:27.019  INFO 9304 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$93531f6b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-07-22 14:17:27.282  INFO 9304 --- [main] org.eclipse.jetty.util.log               : Logging initialized @2692ms to org.eclipse.jetty.util.log.Slf4jLog
-2019-07-22 14:17:27.609  INFO 9304 --- [main] o.s.b.w.e.j.JettyServletWebServerFactory : Server initialized with port: 8181
-2019-07-22 14:17:27.611  INFO 9304 --- [main] org.eclipse.jetty.server.Server          : jetty-9.4.19.v20190610; built: 2019-06-10T16:30:51.723Z; git: afcf563148970e98786327af5e07c261fda175d3; jvm 1.8.0_202-b08
-2019-07-22 14:17:27.648  INFO 9304 --- [main] o.e.j.s.h.ContextHandler.application     : Initializing Spring embedded WebApplicationContext
-2019-07-22 14:17:28.334  INFO 9304 --- [main] org.eclipse.jetty.server.session         : DefaultSessionIdManager workerName=node0
-2019-07-22 14:17:28.334  INFO 9304 --- [main] org.eclipse.jetty.server.session         : No SessionScavenger set, using defaults
-2019-07-22 14:17:28.336  INFO 9304 --- [main] org.eclipse.jetty.server.session         : node0 Scavenging every 600000ms
-2019-07-22 14:17:28.344  INFO 9304 --- [main] o.e.jetty.server.handler.ContextHandler  : Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@1702830d{application,/,[file:///C:/Users/dkoryakovskiy/AppData/Local/Temp/jetty-docbase.1305043735226489651.8181/],AVAILABLE}
-2019-07-22 14:17:28.345  INFO 9304 --- [main] org.eclipse.jetty.server.Server          : Started @3754ms
-2019-07-22 14:17:29.549  INFO 9304 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2019-07-22 14:17:29.810  INFO 9304 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2019-07-22 14:17:29.944  INFO 9304 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2019-07-22 14:17:30.663  INFO 9304 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-07-22 14:17:30.721  WARN 9304 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2019-07-22 14:17:31.187  INFO 9304 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
-2019-07-22 14:17:31.264  INFO 9304 --- [main] o.e.j.s.h.ContextHandler.application     : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2019-07-22 14:17:31.315  INFO 9304 --- [main] o.e.jetty.server.AbstractConnector       : Started ServerConnector@47ec7422{HTTP/1.1,[http/1.1]}{0.0.0.0:8181}
-2019-07-22 14:17:31.317  INFO 9304 --- [main] o.s.b.web.embedded.jetty.JettyWebServer  : Jetty started on port(s) 8181 (http/1.1) with context path '/'
-2019-07-22 14:17:31.319  INFO 9304 --- [main] com.mmtr.App                             : Started App in 6.312 seconds (JVM running for 6.729)
-2019-07-22 14:18:20.527  INFO 3980 --- [main] com.mmtr.App                             : Starting App on dkoryakovskiy with PID 3980 (K:\mmtr_stage2\build\classes\java\main started by dkoryakovskiy in K:\mmtr_stage2)
-2019-07-22 14:18:20.532  INFO 3980 --- [main] com.mmtr.App                             : No active profile set, falling back to default profiles: default
-2019-07-22 14:18:21.593  INFO 3980 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2019-07-22 14:18:21.656  INFO 3980 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 53ms. Found 3 repository interfaces.
-2019-07-22 14:18:22.190  INFO 3980 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3b4495bc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-07-22 14:18:22.444  INFO 3980 --- [main] org.eclipse.jetty.util.log               : Logging initialized @2806ms to org.eclipse.jetty.util.log.Slf4jLog
-2019-07-22 14:18:22.755  INFO 3980 --- [main] o.s.b.w.e.j.JettyServletWebServerFactory : Server initialized with port: 8181
-2019-07-22 14:18:22.758  INFO 3980 --- [main] org.eclipse.jetty.server.Server          : jetty-9.4.19.v20190610; built: 2019-06-10T16:30:51.723Z; git: afcf563148970e98786327af5e07c261fda175d3; jvm 1.8.0_202-b08
-2019-07-22 14:18:22.797  INFO 3980 --- [main] o.e.j.s.h.ContextHandler.application     : Initializing Spring embedded WebApplicationContext
-2019-07-22 14:18:23.470  INFO 3980 --- [main] org.eclipse.jetty.server.session         : DefaultSessionIdManager workerName=node0
-2019-07-22 14:18:23.470  INFO 3980 --- [main] org.eclipse.jetty.server.session         : No SessionScavenger set, using defaults
-2019-07-22 14:18:23.472  INFO 3980 --- [main] org.eclipse.jetty.server.session         : node0 Scavenging every 600000ms
-2019-07-22 14:18:23.479  INFO 3980 --- [main] o.e.jetty.server.handler.ContextHandler  : Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@a0f53fc{application,/,[file:///C:/Users/dkoryakovskiy/AppData/Local/Temp/jetty-docbase.91456407817081785.8181/],AVAILABLE}
-2019-07-22 14:18:23.479  INFO 3980 --- [main] org.eclipse.jetty.server.Server          : Started @3841ms
-2019-07-22 14:18:24.808  INFO 3980 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2019-07-22 14:18:24.917  INFO 3980 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2019-07-22 14:18:25.033  INFO 3980 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2019-07-22 14:18:25.763  INFO 3980 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-07-22 14:18:25.824  WARN 3980 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2019-07-22 14:18:26.392  INFO 3980 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
-2019-07-22 14:18:26.446  INFO 3980 --- [main] o.e.j.s.h.ContextHandler.application     : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2019-07-22 14:18:26.497  INFO 3980 --- [main] o.e.jetty.server.AbstractConnector       : Started ServerConnector@10667848{HTTP/1.1,[http/1.1]}{0.0.0.0:8181}
-2019-07-22 14:18:26.500  INFO 3980 --- [main] o.s.b.web.embedded.jetty.JettyWebServer  : Jetty started on port(s) 8181 (http/1.1) with context path '/'
-2019-07-22 14:18:26.502  INFO 3980 --- [main] com.mmtr.App                             : Started App in 6.406 seconds (JVM running for 6.864)
-2019-07-22 14:19:24.616  INFO 15524 --- [main] com.mmtr.App                             : Starting App on dkoryakovskiy with PID 15524 (K:\mmtr_stage2\build\classes\java\main started by dkoryakovskiy in K:\mmtr_stage2)
-2019-07-22 14:19:24.619  INFO 15524 --- [main] com.mmtr.App                             : No active profile set, falling back to default profiles: default
-2019-07-22 14:19:25.601  INFO 15524 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2019-07-22 14:19:25.661  INFO 15524 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 52ms. Found 3 repository interfaces.
-2019-07-22 14:19:26.146  INFO 15524 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$fdb646fa] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-07-22 14:19:26.380  INFO 15524 --- [main] org.eclipse.jetty.util.log               : Logging initialized @2654ms to org.eclipse.jetty.util.log.Slf4jLog
-2019-07-22 14:19:26.667  INFO 15524 --- [main] o.s.b.w.e.j.JettyServletWebServerFactory : Server initialized with port: 8181
-2019-07-22 14:19:26.670  INFO 15524 --- [main] org.eclipse.jetty.server.Server          : jetty-9.4.19.v20190610; built: 2019-06-10T16:30:51.723Z; git: afcf563148970e98786327af5e07c261fda175d3; jvm 1.8.0_202-b08
-2019-07-22 14:19:26.707  INFO 15524 --- [main] o.e.j.s.h.ContextHandler.application     : Initializing Spring embedded WebApplicationContext
-2019-07-22 14:19:27.348  INFO 15524 --- [main] org.eclipse.jetty.server.session         : DefaultSessionIdManager workerName=node0
-2019-07-22 14:19:27.348  INFO 15524 --- [main] org.eclipse.jetty.server.session         : No SessionScavenger set, using defaults
-2019-07-22 14:19:27.349  INFO 15524 --- [main] org.eclipse.jetty.server.session         : node0 Scavenging every 600000ms
-2019-07-22 14:19:27.357  INFO 15524 --- [main] o.e.jetty.server.handler.ContextHandler  : Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@1729ec00{application,/,[file:///C:/Users/dkoryakovskiy/AppData/Local/Temp/jetty-docbase.5626696249285185578.8181/],AVAILABLE}
-2019-07-22 14:19:27.358  INFO 15524 --- [main] org.eclipse.jetty.server.Server          : Started @3632ms
-2019-07-22 14:19:28.573  INFO 15524 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2019-07-22 14:19:28.802  INFO 15524 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2019-07-22 14:19:28.922  INFO 15524 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2019-07-22 14:19:29.626  INFO 15524 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-07-22 14:19:29.688  WARN 15524 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2019-07-22 14:19:30.149  INFO 15524 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
-2019-07-22 14:19:30.225  INFO 15524 --- [main] o.e.j.s.h.ContextHandler.application     : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2019-07-22 14:19:30.273  INFO 15524 --- [main] o.e.jetty.server.AbstractConnector       : Started ServerConnector@5c82cd4f{HTTP/1.1,[http/1.1]}{0.0.0.0:8181}
-2019-07-22 14:19:30.276  INFO 15524 --- [main] o.s.b.web.embedded.jetty.JettyWebServer  : Jetty started on port(s) 8181 (http/1.1) with context path '/'
-2019-07-22 14:19:30.278  INFO 15524 --- [main] com.mmtr.App                             : Started App in 6.092 seconds (JVM running for 6.553)
-2019-07-22 14:20:24.729  INFO 15808 --- [main] com.mmtr.App                             : Starting App on dkoryakovskiy with PID 15808 (K:\mmtr_stage2\build\classes\java\main started by dkoryakovskiy in K:\mmtr_stage2)
-2019-07-22 14:20:24.733  INFO 15808 --- [main] com.mmtr.App                             : No active profile set, falling back to default profiles: default
-2019-07-22 14:20:25.789  INFO 15808 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2019-07-22 14:20:25.849  INFO 15808 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 52ms. Found 3 repository interfaces.
-2019-07-22 14:20:26.366  INFO 15808 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3a74e950] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-07-22 14:20:26.620  INFO 15808 --- [main] org.eclipse.jetty.util.log               : Logging initialized @2709ms to org.eclipse.jetty.util.log.Slf4jLog
-2019-07-22 14:20:26.970  INFO 15808 --- [main] o.s.b.w.e.j.JettyServletWebServerFactory : Server initialized with port: 8181
-2019-07-22 14:20:26.973  INFO 15808 --- [main] org.eclipse.jetty.server.Server          : jetty-9.4.19.v20190610; built: 2019-06-10T16:30:51.723Z; git: afcf563148970e98786327af5e07c261fda175d3; jvm 1.8.0_202-b08
-2019-07-22 14:20:27.009  INFO 15808 --- [main] o.e.j.s.h.ContextHandler.application     : Initializing Spring embedded WebApplicationContext
-2019-07-22 14:20:27.664  INFO 15808 --- [main] org.eclipse.jetty.server.session         : DefaultSessionIdManager workerName=node0
-2019-07-22 14:20:27.664  INFO 15808 --- [main] org.eclipse.jetty.server.session         : No SessionScavenger set, using defaults
-2019-07-22 14:20:27.666  INFO 15808 --- [main] org.eclipse.jetty.server.session         : node0 Scavenging every 600000ms
-2019-07-22 14:20:27.678  INFO 15808 --- [main] o.e.jetty.server.handler.ContextHandler  : Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@1bc776b7{application,/,[file:///C:/Users/dkoryakovskiy/AppData/Local/Temp/jetty-docbase.3215390257205084669.8181/],AVAILABLE}
-2019-07-22 14:20:27.679  INFO 15808 --- [main] org.eclipse.jetty.server.Server          : Started @3767ms
-2019-07-22 14:20:29.049  INFO 15808 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2019-07-22 14:20:29.185  INFO 15808 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2019-07-22 14:20:29.334  INFO 15808 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2019-07-22 14:20:30.052  INFO 15808 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-07-22 14:20:30.129  WARN 15808 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2019-07-22 14:20:30.630  INFO 15808 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
-2019-07-22 14:20:30.700  INFO 15808 --- [main] o.e.j.s.h.ContextHandler.application     : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2019-07-22 14:20:30.739  INFO 15808 --- [main] o.e.jetty.server.AbstractConnector       : Started ServerConnector@359b650b{HTTP/1.1,[http/1.1]}{0.0.0.0:8181}
-2019-07-22 14:20:30.742  INFO 15808 --- [main] o.s.b.web.embedded.jetty.JettyWebServer  : Jetty started on port(s) 8181 (http/1.1) with context path '/'
-2019-07-22 14:20:30.745  INFO 15808 --- [main] com.mmtr.App                             : Started App in 6.404 seconds (JVM running for 6.833)
-2019-07-22 14:21:51.886  INFO 3596 --- [main] com.mmtr.App                             : Starting App on dkoryakovskiy with PID 3596 (K:\mmtr_stage2\build\classes\java\main started by dkoryakovskiy in K:\mmtr_stage2)
-2019-07-22 14:21:51.891  INFO 3596 --- [main] com.mmtr.App                             : No active profile set, falling back to default profiles: default
-2019-07-22 14:21:53.010  INFO 3596 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2019-07-22 14:21:53.093  INFO 3596 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 72ms. Found 3 repository interfaces.
-2019-07-22 14:21:53.714  INFO 3596 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b3460c92] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-07-22 14:21:53.980  INFO 3596 --- [main] org.eclipse.jetty.util.log               : Logging initialized @3093ms to org.eclipse.jetty.util.log.Slf4jLog
-2019-07-22 14:21:54.294  INFO 3596 --- [main] o.s.b.w.e.j.JettyServletWebServerFactory : Server initialized with port: 8181
-2019-07-22 14:21:54.297  INFO 3596 --- [main] org.eclipse.jetty.server.Server          : jetty-9.4.19.v20190610; built: 2019-06-10T16:30:51.723Z; git: afcf563148970e98786327af5e07c261fda175d3; jvm 1.8.0_202-b08
-2019-07-22 14:21:54.341  INFO 3596 --- [main] o.e.j.s.h.ContextHandler.application     : Initializing Spring embedded WebApplicationContext
-2019-07-22 14:21:55.126  INFO 3596 --- [main] org.eclipse.jetty.server.session         : DefaultSessionIdManager workerName=node0
-2019-07-22 14:21:55.127  INFO 3596 --- [main] org.eclipse.jetty.server.session         : No SessionScavenger set, using defaults
-2019-07-22 14:21:55.128  INFO 3596 --- [main] org.eclipse.jetty.server.session         : node0 Scavenging every 660000ms
-2019-07-22 14:21:55.140  INFO 3596 --- [main] o.e.jetty.server.handler.ContextHandler  : Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@4f169009{application,/,[file:///C:/Users/dkoryakovskiy/AppData/Local/Temp/jetty-docbase.6083351777621758521.8181/],AVAILABLE}
-2019-07-22 14:21:55.141  INFO 3596 --- [main] org.eclipse.jetty.server.Server          : Started @4254ms
-2019-07-22 14:21:56.982  INFO 3596 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2019-07-22 14:21:57.111  INFO 3596 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2019-07-22 14:21:57.248  INFO 3596 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2019-07-22 14:21:58.212  INFO 3596 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-07-22 14:21:58.297  WARN 3596 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2019-07-22 14:21:58.883  INFO 3596 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
-2019-07-22 14:21:58.989  INFO 3596 --- [main] o.e.j.s.h.ContextHandler.application     : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2019-07-22 14:21:59.062  INFO 3596 --- [main] o.e.jetty.server.AbstractConnector       : Started ServerConnector@571a01f9{HTTP/1.1,[http/1.1]}{0.0.0.0:8181}
-2019-07-22 14:21:59.066  INFO 3596 --- [main] o.s.b.web.embedded.jetty.JettyWebServer  : Jetty started on port(s) 8181 (http/1.1) with context path '/'
-2019-07-22 14:21:59.069  INFO 3596 --- [main] com.mmtr.App                             : Started App in 7.667 seconds (JVM running for 8.182)
-2019-07-22 14:39:04.967  INFO 3848 --- [main] com.mmtr.App                             : Starting App on dkoryakovskiy with PID 3848 (K:\mmtr_stage2\build\classes\java\main started by dkoryakovskiy in K:\mmtr_stage2)
-2019-07-22 14:39:04.970  INFO 3848 --- [main] com.mmtr.App                             : No active profile set, falling back to default profiles: default
-2019-07-22 14:39:05.915  INFO 3848 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2019-07-22 14:39:05.974  INFO 3848 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 51ms. Found 3 repository interfaces.
-2019-07-22 14:39:06.469  INFO 3848 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b2ec53b2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-07-22 14:39:06.709  INFO 3848 --- [main] org.eclipse.jetty.util.log               : Logging initialized @2499ms to org.eclipse.jetty.util.log.Slf4jLog
-2019-07-22 14:39:07.042  INFO 3848 --- [main] o.s.b.w.e.j.JettyServletWebServerFactory : Server initialized with port: 8181
-2019-07-22 14:39:07.044  INFO 3848 --- [main] org.eclipse.jetty.server.Server          : jetty-9.4.19.v20190610; built: 2019-06-10T16:30:51.723Z; git: afcf563148970e98786327af5e07c261fda175d3; jvm 1.8.0_202-b08
-2019-07-22 14:39:07.082  INFO 3848 --- [main] o.e.j.s.h.ContextHandler.application     : Initializing Spring embedded WebApplicationContext
-2019-07-22 14:39:07.741  INFO 3848 --- [main] org.eclipse.jetty.server.session         : DefaultSessionIdManager workerName=node0
-2019-07-22 14:39:07.741  INFO 3848 --- [main] org.eclipse.jetty.server.session         : No SessionScavenger set, using defaults
-2019-07-22 14:39:07.743  INFO 3848 --- [main] org.eclipse.jetty.server.session         : node0 Scavenging every 660000ms
-2019-07-22 14:39:07.752  INFO 3848 --- [main] o.e.jetty.server.handler.ContextHandler  : Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@77ec6a3d{application,/,[file:///C:/Users/dkoryakovskiy/AppData/Local/Temp/jetty-docbase.5002397383140050553.8181/],AVAILABLE}
-2019-07-22 14:39:07.753  INFO 3848 --- [main] org.eclipse.jetty.server.Server          : Started @3543ms
-2019-07-22 14:39:09.015  INFO 3848 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2019-07-22 14:39:09.128  INFO 3848 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2019-07-22 14:39:09.247  INFO 3848 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2019-07-22 14:39:09.997  INFO 3848 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-07-22 14:39:10.065  WARN 3848 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2019-07-22 14:39:10.596  INFO 3848 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
-2019-07-22 14:39:10.706  INFO 3848 --- [main] o.e.j.s.h.ContextHandler.application     : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2019-07-22 14:39:10.765  INFO 3848 --- [main] o.e.jetty.server.AbstractConnector       : Started ServerConnector@6aef4eb8{HTTP/1.1,[http/1.1]}{0.0.0.0:8181}
-2019-07-22 14:39:10.769  INFO 3848 --- [main] o.s.b.web.embedded.jetty.JettyWebServer  : Jetty started on port(s) 8181 (http/1.1) with context path '/'
-2019-07-22 14:39:10.773  INFO 3848 --- [main] com.mmtr.App                             : Started App in 6.189 seconds (JVM running for 6.564)
-2019-07-22 14:39:15.272 ERROR 3848 --- [qtp895705623-20] o.h.engine.jdbc.spi.SqlExceptionHelper   : ОШИБКА: нулевое значение в столбце "id" нарушает ограничение NOT NULL
-  Detail: Ошибочная строка содержит (null, 2, 12345, 6).
-2019-07-22 14:40:48.008 ERROR 3848 --- [qtp895705623-14] o.h.engine.jdbc.spi.SqlExceptionHelper   : ОШИБКА: нулевое значение в столбце "id" нарушает ограничение NOT NULL
-  Detail: Ошибочная строка содержит (null, 2, 12345, 7).
-2019-07-22 14:40:53.978 ERROR 3848 --- [qtp895705623-20] o.h.engine.jdbc.spi.SqlExceptionHelper   : ОШИБКА: нулевое значение в столбце "id" нарушает ограничение NOT NULL
-  Detail: Ошибочная строка содержит (null, 2, 12345, 8).
-2019-07-22 14:44:23.088  INFO 2728 --- [main] com.mmtr.App                             : Starting App on dkoryakovskiy with PID 2728 (K:\mmtr_stage2\build\classes\java\main started by dkoryakovskiy in K:\mmtr_stage2)
-2019-07-22 14:44:23.093  INFO 2728 --- [main] com.mmtr.App                             : No active profile set, falling back to default profiles: default
-2019-07-22 14:44:24.152  INFO 2728 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2019-07-22 14:44:24.230  INFO 2728 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 68ms. Found 3 repository interfaces.
-2019-07-22 14:44:24.822  INFO 2728 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c75e05] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-07-22 14:44:25.113  INFO 2728 --- [main] org.eclipse.jetty.util.log               : Logging initialized @2931ms to org.eclipse.jetty.util.log.Slf4jLog
-2019-07-22 14:44:25.433  INFO 2728 --- [main] o.s.b.w.e.j.JettyServletWebServerFactory : Server initialized with port: 8181
-2019-07-22 14:44:25.436  INFO 2728 --- [main] org.eclipse.jetty.server.Server          : jetty-9.4.19.v20190610; built: 2019-06-10T16:30:51.723Z; git: afcf563148970e98786327af5e07c261fda175d3; jvm 1.8.0_202-b08
-2019-07-22 14:44:25.477  INFO 2728 --- [main] o.e.j.s.h.ContextHandler.application     : Initializing Spring embedded WebApplicationContext
-2019-07-22 14:44:26.221  INFO 2728 --- [main] org.eclipse.jetty.server.session         : DefaultSessionIdManager workerName=node0
-2019-07-22 14:44:26.221  INFO 2728 --- [main] org.eclipse.jetty.server.session         : No SessionScavenger set, using defaults
-2019-07-22 14:44:26.223  INFO 2728 --- [main] org.eclipse.jetty.server.session         : node0 Scavenging every 660000ms
-2019-07-22 14:44:26.232  INFO 2728 --- [main] o.e.jetty.server.handler.ContextHandler  : Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@7bdf61ad{application,/,[file:///C:/Users/dkoryakovskiy/AppData/Local/Temp/jetty-docbase.447291475555413626.8181/],AVAILABLE}
-2019-07-22 14:44:26.233  INFO 2728 --- [main] org.eclipse.jetty.server.Server          : Started @4052ms
-2019-07-22 14:44:27.617  INFO 2728 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2019-07-22 14:44:27.748  INFO 2728 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2019-07-22 14:44:27.923  INFO 2728 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2019-07-22 14:44:28.763  INFO 2728 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-07-22 14:44:28.833  WARN 2728 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2019-07-22 14:44:29.387  INFO 2728 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
-2019-07-22 14:44:29.464  INFO 2728 --- [main] o.e.j.s.h.ContextHandler.application     : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2019-07-22 14:44:29.517  INFO 2728 --- [main] o.e.jetty.server.AbstractConnector       : Started ServerConnector@2d4608a6{HTTP/1.1,[http/1.1]}{0.0.0.0:8181}
-2019-07-22 14:44:29.521  INFO 2728 --- [main] o.s.b.web.embedded.jetty.JettyWebServer  : Jetty started on port(s) 8181 (http/1.1) with context path '/'
-2019-07-22 14:44:29.523  INFO 2728 --- [main] com.mmtr.App                             : Started App in 6.9 seconds (JVM running for 7.342)
-2019-07-22 14:45:34.492  INFO 16036 --- [main] com.mmtr.App                             : Starting App on dkoryakovskiy with PID 16036 (K:\mmtr_stage2\build\classes\java\main started by dkoryakovskiy in K:\mmtr_stage2)
-2019-07-22 14:45:34.496  INFO 16036 --- [main] com.mmtr.App                             : No active profile set, falling back to default profiles: default
-2019-07-22 14:45:35.564  INFO 16036 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2019-07-22 14:45:35.631  INFO 16036 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 58ms. Found 3 repository interfaces.
-2019-07-22 14:45:36.214  INFO 16036 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$355fb5f6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-07-22 14:45:36.480  INFO 16036 --- [main] org.eclipse.jetty.util.log               : Logging initialized @2894ms to org.eclipse.jetty.util.log.Slf4jLog
-2019-07-22 14:45:36.780  INFO 16036 --- [main] o.s.b.w.e.j.JettyServletWebServerFactory : Server initialized with port: 8181
-2019-07-22 14:45:36.783  INFO 16036 --- [main] org.eclipse.jetty.server.Server          : jetty-9.4.19.v20190610; built: 2019-06-10T16:30:51.723Z; git: afcf563148970e98786327af5e07c261fda175d3; jvm 1.8.0_202-b08
-2019-07-22 14:45:36.822  INFO 16036 --- [main] o.e.j.s.h.ContextHandler.application     : Initializing Spring embedded WebApplicationContext
-2019-07-22 14:45:37.515  INFO 16036 --- [main] org.eclipse.jetty.server.session         : DefaultSessionIdManager workerName=node0
-2019-07-22 14:45:37.515  INFO 16036 --- [main] org.eclipse.jetty.server.session         : No SessionScavenger set, using defaults
-2019-07-22 14:45:37.517  INFO 16036 --- [main] org.eclipse.jetty.server.session         : node0 Scavenging every 660000ms
-2019-07-22 14:45:37.527  INFO 16036 --- [main] o.e.jetty.server.handler.ContextHandler  : Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@7a8341c1{application,/,[file:///C:/Users/dkoryakovskiy/AppData/Local/Temp/jetty-docbase.2901544900554522611.8181/],AVAILABLE}
-2019-07-22 14:45:37.528  INFO 16036 --- [main] org.eclipse.jetty.server.Server          : Started @3942ms
-2019-07-22 14:45:38.953  INFO 16036 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2019-07-22 14:45:39.078  INFO 16036 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2019-07-22 14:45:39.196  INFO 16036 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2019-07-22 14:45:40.011  INFO 16036 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-07-22 14:45:40.082  WARN 16036 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2019-07-22 14:45:40.596  INFO 16036 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
-2019-07-22 14:45:40.685  INFO 16036 --- [main] o.e.j.s.h.ContextHandler.application     : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2019-07-22 14:45:40.748  INFO 16036 --- [main] o.e.jetty.server.AbstractConnector       : Started ServerConnector@3fba233d{HTTP/1.1,[http/1.1]}{0.0.0.0:8181}
-2019-07-22 14:45:40.750  INFO 16036 --- [main] o.s.b.web.embedded.jetty.JettyWebServer  : Jetty started on port(s) 8181 (http/1.1) with context path '/'
-2019-07-22 14:45:40.753  INFO 16036 --- [main] com.mmtr.App                             : Started App in 6.722 seconds (JVM running for 7.167)
-2019-07-22 14:48:31.619  INFO 108 --- [main] com.mmtr.App                             : Starting App on dkoryakovskiy with PID 108 (K:\mmtr_stage2\build\classes\java\main started by dkoryakovskiy in K:\mmtr_stage2)
-2019-07-22 14:48:31.627  INFO 108 --- [main] com.mmtr.App                             : No active profile set, falling back to default profiles: default
-2019-07-22 14:48:32.960  INFO 108 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2019-07-22 14:48:33.051  INFO 108 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 80ms. Found 3 repository interfaces.
-2019-07-22 14:48:33.979  INFO 108 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7348ecdc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-07-22 14:48:34.420  INFO 108 --- [main] org.eclipse.jetty.util.log               : Logging initialized @4023ms to org.eclipse.jetty.util.log.Slf4jLog
-2019-07-22 14:48:34.774  INFO 108 --- [main] o.s.b.w.e.j.JettyServletWebServerFactory : Server initialized with port: 8181
-2019-07-22 14:48:34.777  INFO 108 --- [main] org.eclipse.jetty.server.Server          : jetty-9.4.19.v20190610; built: 2019-06-10T16:30:51.723Z; git: afcf563148970e98786327af5e07c261fda175d3; jvm 1.8.0_202-b08
-2019-07-22 14:48:34.837  INFO 108 --- [main] o.e.j.s.h.ContextHandler.application     : Initializing Spring embedded WebApplicationContext
-2019-07-22 14:48:35.609  INFO 108 --- [main] org.eclipse.jetty.server.session         : DefaultSessionIdManager workerName=node0
-2019-07-22 14:48:35.610  INFO 108 --- [main] org.eclipse.jetty.server.session         : No SessionScavenger set, using defaults
-2019-07-22 14:48:35.612  INFO 108 --- [main] org.eclipse.jetty.server.session         : node0 Scavenging every 600000ms
-2019-07-22 14:48:35.623  INFO 108 --- [main] o.e.jetty.server.handler.ContextHandler  : Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@33e434c8{application,/,[file:///C:/Users/dkoryakovskiy/AppData/Local/Temp/jetty-docbase.7959333865702330954.8181/],AVAILABLE}
-2019-07-22 14:48:35.624  INFO 108 --- [main] org.eclipse.jetty.server.Server          : Started @5227ms
-2019-07-22 14:48:37.070  INFO 108 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2019-07-22 14:48:37.202  INFO 108 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2019-07-22 14:48:37.343  INFO 108 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2019-07-22 14:48:38.163  INFO 108 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-07-22 14:48:38.260  WARN 108 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2019-07-22 14:48:38.800  INFO 108 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
-2019-07-22 14:48:38.881  INFO 108 --- [main] o.e.j.s.h.ContextHandler.application     : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2019-07-22 14:48:38.937  INFO 108 --- [main] o.e.jetty.server.AbstractConnector       : Started ServerConnector@30c1da48{HTTP/1.1,[http/1.1]}{0.0.0.0:8181}
-2019-07-22 14:48:38.940  INFO 108 --- [main] o.s.b.web.embedded.jetty.JettyWebServer  : Jetty started on port(s) 8181 (http/1.1) with context path '/'
-2019-07-22 14:48:38.943  INFO 108 --- [main] com.mmtr.App                             : Started App in 8.047 seconds (JVM running for 8.546)
-2019-07-22 14:49:21.588 ERROR 108 --- [qtp1908505175-22] o.h.engine.jdbc.spi.SqlExceptionHelper   : ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "translation_pkey"
-  Detail: Ключ "(id)=(1)" уже существует.
-2019-07-22 14:55:16.853  INFO 6772 --- [main] com.mmtr.App                             : Starting App on dkoryakovskiy with PID 6772 (K:\mmtr_stage2\build\classes\java\main started by dkoryakovskiy in K:\mmtr_stage2)
-2019-07-22 14:55:16.856  INFO 6772 --- [main] com.mmtr.App                             : No active profile set, falling back to default profiles: default
-2019-07-22 14:55:18.236  INFO 6772 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2019-07-22 14:55:18.313  INFO 6772 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 66ms. Found 3 repository interfaces.
-2019-07-22 14:55:18.942  INFO 6772 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f22638f6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-07-22 14:55:19.270  INFO 6772 --- [main] org.eclipse.jetty.util.log               : Logging initialized @3435ms to org.eclipse.jetty.util.log.Slf4jLog
-2019-07-22 14:55:19.603  INFO 6772 --- [main] o.s.b.w.e.j.JettyServletWebServerFactory : Server initialized with port: 8181
-2019-07-22 14:55:19.606  INFO 6772 --- [main] org.eclipse.jetty.server.Server          : jetty-9.4.19.v20190610; built: 2019-06-10T16:30:51.723Z; git: afcf563148970e98786327af5e07c261fda175d3; jvm 1.8.0_202-b08
-2019-07-22 14:55:19.650  INFO 6772 --- [main] o.e.j.s.h.ContextHandler.application     : Initializing Spring embedded WebApplicationContext
-2019-07-22 14:55:20.452  INFO 6772 --- [main] org.eclipse.jetty.server.session         : DefaultSessionIdManager workerName=node0
-2019-07-22 14:55:20.453  INFO 6772 --- [main] org.eclipse.jetty.server.session         : No SessionScavenger set, using defaults
-2019-07-22 14:55:20.454  INFO 6772 --- [main] org.eclipse.jetty.server.session         : node0 Scavenging every 660000ms
-2019-07-22 14:55:20.466  INFO 6772 --- [main] o.e.jetty.server.handler.ContextHandler  : Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@31973858{application,/,[file:///C:/Users/dkoryakovskiy/AppData/Local/Temp/jetty-docbase.1700868080136602174.8181/],AVAILABLE}
-2019-07-22 14:55:20.467  INFO 6772 --- [main] org.eclipse.jetty.server.Server          : Started @4632ms
-2019-07-22 14:55:22.215  INFO 6772 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2019-07-22 14:55:22.341  INFO 6772 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2019-07-22 14:55:22.463  INFO 6772 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2019-07-22 14:55:23.396  INFO 6772 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-07-22 14:55:23.483  WARN 6772 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2019-07-22 14:55:24.096  INFO 6772 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
-2019-07-22 14:55:24.182  INFO 6772 --- [main] o.e.j.s.h.ContextHandler.application     : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2019-07-22 14:55:24.242  INFO 6772 --- [main] o.e.jetty.server.AbstractConnector       : Started ServerConnector@24386839{HTTP/1.1,[http/1.1]}{0.0.0.0:8181}
-2019-07-22 14:55:24.245  INFO 6772 --- [main] o.s.b.web.embedded.jetty.JettyWebServer  : Jetty started on port(s) 8181 (http/1.1) with context path '/'
-2019-07-22 14:55:24.248  INFO 6772 --- [main] com.mmtr.App                             : Started App in 7.942 seconds (JVM running for 8.413)
-2019-07-22 14:58:35.640  INFO 8976 --- [main] com.mmtr.App                             : Starting App on dkoryakovskiy with PID 8976 (K:\mmtr_stage2\build\classes\java\main started by dkoryakovskiy in K:\mmtr_stage2)
-2019-07-22 14:58:35.645  INFO 8976 --- [main] com.mmtr.App                             : No active profile set, falling back to default profiles: default
-2019-07-22 14:58:36.701  INFO 8976 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2019-07-22 14:58:36.793  INFO 8976 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 79ms. Found 3 repository interfaces.
-2019-07-22 14:58:37.377  INFO 8976 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a37a7903] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-07-22 14:58:37.651  INFO 8976 --- [main] org.eclipse.jetty.util.log               : Logging initialized @2957ms to org.eclipse.jetty.util.log.Slf4jLog
-2019-07-22 14:58:37.968  INFO 8976 --- [main] o.s.b.w.e.j.JettyServletWebServerFactory : Server initialized with port: 8181
-2019-07-22 14:58:37.971  INFO 8976 --- [main] org.eclipse.jetty.server.Server          : jetty-9.4.19.v20190610; built: 2019-06-10T16:30:51.723Z; git: afcf563148970e98786327af5e07c261fda175d3; jvm 1.8.0_202-b08
-2019-07-22 14:58:38.015  INFO 8976 --- [main] o.e.j.s.h.ContextHandler.application     : Initializing Spring embedded WebApplicationContext
-2019-07-22 14:58:38.710  INFO 8976 --- [main] org.eclipse.jetty.server.session         : DefaultSessionIdManager workerName=node0
-2019-07-22 14:58:38.710  INFO 8976 --- [main] org.eclipse.jetty.server.session         : No SessionScavenger set, using defaults
-2019-07-22 14:58:38.711  INFO 8976 --- [main] org.eclipse.jetty.server.session         : node0 Scavenging every 600000ms
-2019-07-22 14:58:38.721  INFO 8976 --- [main] o.e.jetty.server.handler.ContextHandler  : Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@76e90da5{application,/,[file:///C:/Users/dkoryakovskiy/AppData/Local/Temp/jetty-docbase.469189489077898201.8181/],AVAILABLE}
-2019-07-22 14:58:38.722  INFO 8976 --- [main] org.eclipse.jetty.server.Server          : Started @4029ms
-2019-07-22 14:58:40.131  INFO 8976 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2019-07-22 14:58:40.398  INFO 8976 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2019-07-22 14:58:40.556  INFO 8976 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2019-07-22 14:58:41.585  INFO 8976 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-07-22 14:58:41.687  WARN 8976 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2019-07-22 14:58:42.313  INFO 8976 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
-2019-07-22 14:58:42.402  INFO 8976 --- [main] o.e.j.s.h.ContextHandler.application     : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2019-07-22 14:58:42.458  INFO 8976 --- [main] o.e.jetty.server.AbstractConnector       : Started ServerConnector@7b27e8f4{HTTP/1.1,[http/1.1]}{0.0.0.0:8181}
-2019-07-22 14:58:42.460  INFO 8976 --- [main] o.s.b.web.embedded.jetty.JettyWebServer  : Jetty started on port(s) 8181 (http/1.1) with context path '/'
-2019-07-22 14:58:42.463  INFO 8976 --- [main] com.mmtr.App                             : Started App in 7.284 seconds (JVM running for 7.77)
+2019-07-23 12:08:46.766  INFO 14212 --- [main] com.mmtr.App                             : Starting App on dkoryakovskiy with PID 14212 (K:\mmtr_stage2\build\classes\java\main started by dkoryakovskiy in K:\mmtr_stage2)
+2019-07-23 12:08:46.769  INFO 14212 --- [main] com.mmtr.App                             : No active profile set, falling back to default profiles: default
+2019-07-23 12:08:48.969  INFO 14212 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-23 12:08:49.102  INFO 14212 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 113ms. Found 3 repository interfaces.
+2019-07-23 12:08:49.958  INFO 14212 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5a8bfcec] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-23 12:08:50.247  INFO 14212 --- [main] org.eclipse.jetty.util.log               : Logging initialized @4276ms to org.eclipse.jetty.util.log.Slf4jLog
+2019-07-23 12:08:50.609  INFO 14212 --- [main] o.s.b.w.e.j.JettyServletWebServerFactory : Server initialized with port: 8181
+2019-07-23 12:08:50.612  INFO 14212 --- [main] org.eclipse.jetty.server.Server          : jetty-9.4.19.v20190610; built: 2019-06-10T16:30:51.723Z; git: afcf563148970e98786327af5e07c261fda175d3; jvm 1.8.0_202-b08
+2019-07-23 12:08:50.649  INFO 14212 --- [main] o.e.j.s.h.ContextHandler.application     : Initializing Spring embedded WebApplicationContext
+2019-07-23 12:08:51.320  INFO 14212 --- [main] org.eclipse.jetty.server.session         : DefaultSessionIdManager workerName=node0
+2019-07-23 12:08:51.320  INFO 14212 --- [main] org.eclipse.jetty.server.session         : No SessionScavenger set, using defaults
+2019-07-23 12:08:51.322  INFO 14212 --- [main] org.eclipse.jetty.server.session         : node0 Scavenging every 600000ms
+2019-07-23 12:08:51.331  INFO 14212 --- [main] o.e.jetty.server.handler.ContextHandler  : Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@3e906375{application,/,[file:///C:/Users/dkoryakovskiy/AppData/Local/Temp/jetty-docbase.8329282283950439916.8181/, jar:file:/K:/gradle-5.2/caches/modules-2/files-2.1/io.springfox/springfox-swagger-ui/2.9.2/d542382a88ff3ea8d4032c28b2b0325797fada7d/springfox-swagger-ui-2.9.2.jar!/META-INF/resources],AVAILABLE}
+2019-07-23 12:08:51.332  INFO 14212 --- [main] org.eclipse.jetty.server.Server          : Started @5361ms
+2019-07-23 12:08:52.673  INFO 14212 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-07-23 12:08:52.786  INFO 14212 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-07-23 12:08:52.899  INFO 14212 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-07-23 12:08:53.830  INFO 14212 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-07-23 12:08:53.967  INFO 14212 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-07-23 12:08:54.132  WARN 14212 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-07-23 12:08:54.727  INFO 14212 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-07-23 12:08:54.753  INFO 14212 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-07-23 12:08:54.802  INFO 14212 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-07-23 12:08:55.002  INFO 14212 --- [main] o.e.j.s.h.ContextHandler.application     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-23 12:08:55.057  INFO 14212 --- [main] o.e.jetty.server.AbstractConnector       : Started ServerConnector@50850539{HTTP/1.1,[http/1.1]}{0.0.0.0:8181}
+2019-07-23 12:08:55.060  INFO 14212 --- [main] o.s.b.web.embedded.jetty.JettyWebServer  : Jetty started on port(s) 8181 (http/1.1) with context path '/'
+2019-07-23 12:08:55.063  INFO 14212 --- [main] com.mmtr.App                             : Started App in 8.682 seconds (JVM running for 9.092)
+2019-07-23 12:10:19.273  INFO 16304 --- [main] com.mmtr.App                             : Starting App on dkoryakovskiy with PID 16304 (K:\mmtr_stage2\build\classes\java\main started by dkoryakovskiy in K:\mmtr_stage2)
+2019-07-23 12:10:19.278  INFO 16304 --- [main] com.mmtr.App                             : No active profile set, falling back to default profiles: default
+2019-07-23 12:10:20.893  INFO 16304 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-23 12:10:21.003  INFO 16304 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 98ms. Found 3 repository interfaces.
+2019-07-23 12:10:21.695  INFO 16304 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a8955564] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-23 12:10:21.991  INFO 16304 --- [main] org.eclipse.jetty.util.log               : Logging initialized @3752ms to org.eclipse.jetty.util.log.Slf4jLog
+2019-07-23 12:10:22.314  INFO 16304 --- [main] o.s.b.w.e.j.JettyServletWebServerFactory : Server initialized with port: 8181
+2019-07-23 12:10:22.318  INFO 16304 --- [main] org.eclipse.jetty.server.Server          : jetty-9.4.19.v20190610; built: 2019-06-10T16:30:51.723Z; git: afcf563148970e98786327af5e07c261fda175d3; jvm 1.8.0_202-b08
+2019-07-23 12:10:22.359  INFO 16304 --- [main] o.e.j.s.h.ContextHandler.application     : Initializing Spring embedded WebApplicationContext
+2019-07-23 12:10:23.178  INFO 16304 --- [main] org.eclipse.jetty.server.session         : DefaultSessionIdManager workerName=node0
+2019-07-23 12:10:23.178  INFO 16304 --- [main] org.eclipse.jetty.server.session         : No SessionScavenger set, using defaults
+2019-07-23 12:10:23.180  INFO 16304 --- [main] org.eclipse.jetty.server.session         : node0 Scavenging every 600000ms
+2019-07-23 12:10:23.192  INFO 16304 --- [main] o.e.jetty.server.handler.ContextHandler  : Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@51e7589f{application,/,[file:///C:/Users/dkoryakovskiy/AppData/Local/Temp/jetty-docbase.3422210630066900423.8181/, jar:file:/K:/gradle-5.2/caches/modules-2/files-2.1/io.springfox/springfox-swagger-ui/2.9.2/d542382a88ff3ea8d4032c28b2b0325797fada7d/springfox-swagger-ui-2.9.2.jar!/META-INF/resources],AVAILABLE}
+2019-07-23 12:10:23.193  INFO 16304 --- [main] org.eclipse.jetty.server.Server          : Started @4955ms
+2019-07-23 12:10:24.979  INFO 16304 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-07-23 12:10:25.118  INFO 16304 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-07-23 12:10:25.246  INFO 16304 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-07-23 12:10:26.340  INFO 16304 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-07-23 12:10:26.486  INFO 16304 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-07-23 12:10:26.700  WARN 16304 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-07-23 12:10:27.434  INFO 16304 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-07-23 12:10:27.474  INFO 16304 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-07-23 12:10:27.532  INFO 16304 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-07-23 12:10:27.881  INFO 16304 --- [main] o.e.j.s.h.ContextHandler.application     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-23 12:10:27.937  INFO 16304 --- [main] o.e.jetty.server.AbstractConnector       : Started ServerConnector@4bc59b27{HTTP/1.1,[http/1.1]}{0.0.0.0:8181}
+2019-07-23 12:10:27.941  INFO 16304 --- [main] o.s.b.web.embedded.jetty.JettyWebServer  : Jetty started on port(s) 8181 (http/1.1) with context path '/'
+2019-07-23 12:10:27.944  INFO 16304 --- [main] com.mmtr.App                             : Started App in 9.231 seconds (JVM running for 9.706)
+2019-07-23 12:12:40.184  INFO 6848 --- [main] com.mmtr.App                             : Starting App on dkoryakovskiy with PID 6848 (K:\mmtr_stage2\build\classes\java\main started by dkoryakovskiy in K:\mmtr_stage2)
+2019-07-23 12:12:40.189  INFO 6848 --- [main] com.mmtr.App                             : No active profile set, falling back to default profiles: default
+2019-07-23 12:12:41.625  INFO 6848 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-23 12:12:41.748  INFO 6848 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 107ms. Found 3 repository interfaces.
+2019-07-23 12:12:42.441  INFO 6848 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$432c91ea] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-23 12:12:42.755  INFO 6848 --- [main] org.eclipse.jetty.util.log               : Logging initialized @3572ms to org.eclipse.jetty.util.log.Slf4jLog
+2019-07-23 12:12:43.108  INFO 6848 --- [main] o.s.b.w.e.j.JettyServletWebServerFactory : Server initialized with port: 8181
+2019-07-23 12:12:43.111  INFO 6848 --- [main] org.eclipse.jetty.server.Server          : jetty-9.4.19.v20190610; built: 2019-06-10T16:30:51.723Z; git: afcf563148970e98786327af5e07c261fda175d3; jvm 1.8.0_202-b08
+2019-07-23 12:12:43.153  INFO 6848 --- [main] o.e.j.s.h.ContextHandler.application     : Initializing Spring embedded WebApplicationContext
+2019-07-23 12:12:43.945  INFO 6848 --- [main] org.eclipse.jetty.server.session         : DefaultSessionIdManager workerName=node0
+2019-07-23 12:12:43.945  INFO 6848 --- [main] org.eclipse.jetty.server.session         : No SessionScavenger set, using defaults
+2019-07-23 12:12:43.948  INFO 6848 --- [main] org.eclipse.jetty.server.session         : node0 Scavenging every 600000ms
+2019-07-23 12:12:43.964  INFO 6848 --- [main] o.e.jetty.server.handler.ContextHandler  : Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@382d71c7{application,/,[file:///C:/Users/dkoryakovskiy/AppData/Local/Temp/jetty-docbase.8841814345390391384.8181/, jar:file:/K:/gradle-5.2/caches/modules-2/files-2.1/io.springfox/springfox-swagger-ui/2.9.2/d542382a88ff3ea8d4032c28b2b0325797fada7d/springfox-swagger-ui-2.9.2.jar!/META-INF/resources],AVAILABLE}
+2019-07-23 12:12:43.965  INFO 6848 --- [main] org.eclipse.jetty.server.Server          : Started @4784ms
+2019-07-23 12:12:45.704  INFO 6848 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-07-23 12:12:45.885  INFO 6848 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-07-23 12:12:46.035  INFO 6848 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-07-23 12:12:47.170  INFO 6848 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-07-23 12:12:47.310  INFO 6848 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-07-23 12:12:47.495  WARN 6848 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-07-23 12:12:48.183  INFO 6848 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-07-23 12:12:48.219  INFO 6848 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-07-23 12:12:48.263  INFO 6848 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-07-23 12:12:48.480  INFO 6848 --- [main] o.e.j.s.h.ContextHandler.application     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-23 12:12:48.526  INFO 6848 --- [main] o.e.jetty.server.AbstractConnector       : Started ServerConnector@5a515e5d{HTTP/1.1,[http/1.1]}{0.0.0.0:8181}
+2019-07-23 12:12:48.528  INFO 6848 --- [main] o.s.b.web.embedded.jetty.JettyWebServer  : Jetty started on port(s) 8181 (http/1.1) with context path '/'
+2019-07-23 12:12:48.530  INFO 6848 --- [main] com.mmtr.App                             : Started App in 8.848 seconds (JVM running for 9.349)
+2019-07-23 12:16:28.472  INFO 12872 --- [main] com.mmtr.App                             : Starting App on dkoryakovskiy with PID 12872 (K:\mmtr_stage2\build\classes\java\main started by dkoryakovskiy in K:\mmtr_stage2)
+2019-07-23 12:16:28.477  INFO 12872 --- [main] com.mmtr.App                             : No active profile set, falling back to default profiles: default
+2019-07-23 12:16:29.964  INFO 12872 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-23 12:16:30.081  INFO 12872 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 103ms. Found 3 repository interfaces.
+2019-07-23 12:16:30.733  INFO 12872 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9b270d31] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-23 12:16:31.023  INFO 12872 --- [main] org.eclipse.jetty.util.log               : Logging initialized @3565ms to org.eclipse.jetty.util.log.Slf4jLog
+2019-07-23 12:16:31.343  INFO 12872 --- [main] o.s.b.w.e.j.JettyServletWebServerFactory : Server initialized with port: 8181
+2019-07-23 12:16:31.346  INFO 12872 --- [main] org.eclipse.jetty.server.Server          : jetty-9.4.19.v20190610; built: 2019-06-10T16:30:51.723Z; git: afcf563148970e98786327af5e07c261fda175d3; jvm 1.8.0_202-b08
+2019-07-23 12:16:31.390  INFO 12872 --- [main] o.e.j.s.h.ContextHandler.application     : Initializing Spring embedded WebApplicationContext
+2019-07-23 12:16:32.166  INFO 12872 --- [main] org.eclipse.jetty.server.session         : DefaultSessionIdManager workerName=node0
+2019-07-23 12:16:32.166  INFO 12872 --- [main] org.eclipse.jetty.server.session         : No SessionScavenger set, using defaults
+2019-07-23 12:16:32.168  INFO 12872 --- [main] org.eclipse.jetty.server.session         : node0 Scavenging every 600000ms
+2019-07-23 12:16:32.177  INFO 12872 --- [main] o.e.jetty.server.handler.ContextHandler  : Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@48d739f{application,/,[file:///C:/Users/dkoryakovskiy/AppData/Local/Temp/jetty-docbase.8881580892602681042.8181/, jar:file:/K:/gradle-5.2/caches/modules-2/files-2.1/io.springfox/springfox-swagger-ui/2.9.2/d542382a88ff3ea8d4032c28b2b0325797fada7d/springfox-swagger-ui-2.9.2.jar!/META-INF/resources],AVAILABLE}
+2019-07-23 12:16:32.178  INFO 12872 --- [main] org.eclipse.jetty.server.Server          : Started @4720ms
+2019-07-23 12:16:33.758  INFO 12872 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-07-23 12:16:33.881  INFO 12872 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-07-23 12:16:34.005  INFO 12872 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-07-23 12:16:35.112  INFO 12872 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-07-23 12:16:35.251  INFO 12872 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-07-23 12:16:35.498  WARN 12872 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-07-23 12:16:36.187  INFO 12872 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-07-23 12:16:36.236  INFO 12872 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-07-23 12:16:36.293  INFO 12872 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-07-23 12:16:36.528  INFO 12872 --- [main] o.e.j.s.h.ContextHandler.application     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-23 12:16:36.570  INFO 12872 --- [main] o.e.jetty.server.AbstractConnector       : Started ServerConnector@73c31181{HTTP/1.1,[http/1.1]}{0.0.0.0:8181}
+2019-07-23 12:16:36.572  INFO 12872 --- [main] o.s.b.web.embedded.jetty.JettyWebServer  : Jetty started on port(s) 8181 (http/1.1) with context path '/'
+2019-07-23 12:16:36.575  INFO 12872 --- [main] com.mmtr.App                             : Started App in 8.64 seconds (JVM running for 9.119)
+2019-07-23 12:38:44.273  WARN 12872 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=22m10s355ms584µs200ns).
+2019-07-23 12:39:48.419  INFO 11488 --- [main] com.mmtr.App                             : Starting App on dkoryakovskiy with PID 11488 (K:\mmtr_stage2\build\classes\java\main started by dkoryakovskiy in K:\mmtr_stage2)
+2019-07-23 12:39:48.423  INFO 11488 --- [main] com.mmtr.App                             : No active profile set, falling back to default profiles: default
+2019-07-23 12:39:49.861  INFO 11488 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-23 12:39:49.963  INFO 11488 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 90ms. Found 3 repository interfaces.
+2019-07-23 12:39:50.622  INFO 11488 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d13cab32] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-23 12:39:50.961  INFO 11488 --- [main] org.eclipse.jetty.util.log               : Logging initialized @3479ms to org.eclipse.jetty.util.log.Slf4jLog
+2019-07-23 12:39:51.332  INFO 11488 --- [main] o.s.b.w.e.j.JettyServletWebServerFactory : Server initialized with port: 8181
+2019-07-23 12:39:51.337  INFO 11488 --- [main] org.eclipse.jetty.server.Server          : jetty-9.4.19.v20190610; built: 2019-06-10T16:30:51.723Z; git: afcf563148970e98786327af5e07c261fda175d3; jvm 1.8.0_202-b08
+2019-07-23 12:39:51.409  INFO 11488 --- [main] o.e.j.s.h.ContextHandler.application     : Initializing Spring embedded WebApplicationContext
+2019-07-23 12:39:52.272  INFO 11488 --- [main] org.eclipse.jetty.server.session         : DefaultSessionIdManager workerName=node0
+2019-07-23 12:39:52.273  INFO 11488 --- [main] org.eclipse.jetty.server.session         : No SessionScavenger set, using defaults
+2019-07-23 12:39:52.274  INFO 11488 --- [main] org.eclipse.jetty.server.session         : node0 Scavenging every 660000ms
+2019-07-23 12:39:52.288  INFO 11488 --- [main] o.e.jetty.server.handler.ContextHandler  : Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@50bc3219{application,/,[file:///C:/Users/dkoryakovskiy/AppData/Local/Temp/jetty-docbase.8951688007153935254.8181/, jar:file:/K:/gradle-5.2/caches/modules-2/files-2.1/io.springfox/springfox-swagger-ui/2.9.2/d542382a88ff3ea8d4032c28b2b0325797fada7d/springfox-swagger-ui-2.9.2.jar!/META-INF/resources],AVAILABLE}
+2019-07-23 12:39:52.289  INFO 11488 --- [main] org.eclipse.jetty.server.Server          : Started @4808ms
+2019-07-23 12:39:53.841  INFO 11488 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-07-23 12:39:53.963  INFO 11488 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-07-23 12:39:54.104  INFO 11488 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-07-23 12:39:55.263  INFO 11488 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-07-23 12:39:55.397  INFO 11488 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-07-23 12:39:55.600  WARN 11488 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-07-23 12:39:56.262  INFO 11488 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-07-23 12:39:56.297  INFO 11488 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-07-23 12:39:56.349  INFO 11488 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-07-23 12:39:56.609  INFO 11488 --- [main] o.e.j.s.h.ContextHandler.application     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-23 12:39:56.658  INFO 11488 --- [main] o.e.jetty.server.AbstractConnector       : Started ServerConnector@70029d2d{HTTP/1.1,[http/1.1]}{0.0.0.0:8181}
+2019-07-23 12:39:56.662  INFO 11488 --- [main] o.s.b.web.embedded.jetty.JettyWebServer  : Jetty started on port(s) 8181 (http/1.1) with context path '/'
+2019-07-23 12:39:56.665  INFO 11488 --- [main] com.mmtr.App                             : Started App in 8.738 seconds (JVM running for 9.184)
+2019-07-23 12:41:08.316  INFO 1528 --- [main] com.mmtr.App                             : Starting App on dkoryakovskiy with PID 1528 (K:\mmtr_stage2\build\classes\java\main started by dkoryakovskiy in K:\mmtr_stage2)
+2019-07-23 12:41:08.320  INFO 1528 --- [main] com.mmtr.App                             : No active profile set, falling back to default profiles: default
+2019-07-23 12:41:09.980  INFO 1528 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-23 12:41:10.118  INFO 1528 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 118ms. Found 3 repository interfaces.
+2019-07-23 12:41:10.743  INFO 1528 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$989cda4c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-23 12:41:11.017  INFO 1528 --- [main] org.eclipse.jetty.util.log               : Logging initialized @3616ms to org.eclipse.jetty.util.log.Slf4jLog
+2019-07-23 12:41:11.346  INFO 1528 --- [main] o.s.b.w.e.j.JettyServletWebServerFactory : Server initialized with port: 8181
+2019-07-23 12:41:11.349  INFO 1528 --- [main] org.eclipse.jetty.server.Server          : jetty-9.4.19.v20190610; built: 2019-06-10T16:30:51.723Z; git: afcf563148970e98786327af5e07c261fda175d3; jvm 1.8.0_202-b08
+2019-07-23 12:41:11.389  INFO 1528 --- [main] o.e.j.s.h.ContextHandler.application     : Initializing Spring embedded WebApplicationContext
+2019-07-23 12:41:12.168  INFO 1528 --- [main] org.eclipse.jetty.server.session         : DefaultSessionIdManager workerName=node0
+2019-07-23 12:41:12.168  INFO 1528 --- [main] org.eclipse.jetty.server.session         : No SessionScavenger set, using defaults
+2019-07-23 12:41:12.170  INFO 1528 --- [main] org.eclipse.jetty.server.session         : node0 Scavenging every 600000ms
+2019-07-23 12:41:12.179  INFO 1528 --- [main] o.e.jetty.server.handler.ContextHandler  : Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@675b18ff{application,/,[file:///C:/Users/dkoryakovskiy/AppData/Local/Temp/jetty-docbase.6391191406721636975.8181/, jar:file:/K:/gradle-5.2/caches/modules-2/files-2.1/io.springfox/springfox-swagger-ui/2.9.2/d542382a88ff3ea8d4032c28b2b0325797fada7d/springfox-swagger-ui-2.9.2.jar!/META-INF/resources],AVAILABLE}
+2019-07-23 12:41:12.180  INFO 1528 --- [main] org.eclipse.jetty.server.Server          : Started @4779ms
+2019-07-23 12:41:13.727  INFO 1528 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-07-23 12:41:13.847  INFO 1528 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-07-23 12:41:13.966  INFO 1528 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-07-23 12:41:15.068  INFO 1528 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-07-23 12:41:15.227  INFO 1528 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-07-23 12:41:15.433  WARN 1528 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-07-23 12:41:16.144  INFO 1528 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-07-23 12:41:16.204  INFO 1528 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-07-23 12:41:16.270  INFO 1528 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-07-23 12:41:16.529  INFO 1528 --- [main] o.e.j.s.h.ContextHandler.application     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-23 12:41:16.570  INFO 1528 --- [main] o.e.jetty.server.AbstractConnector       : Started ServerConnector@25a94b55{HTTP/1.1,[http/1.1]}{0.0.0.0:8181}
+2019-07-23 12:41:16.573  INFO 1528 --- [main] o.s.b.web.embedded.jetty.JettyWebServer  : Jetty started on port(s) 8181 (http/1.1) with context path '/'
+2019-07-23 12:41:16.576  INFO 1528 --- [main] com.mmtr.App                             : Started App in 8.731 seconds (JVM running for 9.176)
+2019-07-23 12:48:12.702  INFO 9448 --- [main] com.mmtr.App                             : Starting App on dkoryakovskiy with PID 9448 (K:\mmtr_stage2\build\classes\java\main started by dkoryakovskiy in K:\mmtr_stage2)
+2019-07-23 12:48:12.706  INFO 9448 --- [main] com.mmtr.App                             : No active profile set, falling back to default profiles: default
+2019-07-23 12:48:14.168  INFO 9448 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-23 12:48:14.275  INFO 9448 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 92ms. Found 3 repository interfaces.
+2019-07-23 12:48:14.852  INFO 9448 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e8ef133e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-23 12:48:15.174  INFO 9448 --- [main] org.eclipse.jetty.util.log               : Logging initialized @3439ms to org.eclipse.jetty.util.log.Slf4jLog
+2019-07-23 12:48:15.493  INFO 9448 --- [main] o.s.b.w.e.j.JettyServletWebServerFactory : Server initialized with port: 8181
+2019-07-23 12:48:15.496  INFO 9448 --- [main] org.eclipse.jetty.server.Server          : jetty-9.4.19.v20190610; built: 2019-06-10T16:30:51.723Z; git: afcf563148970e98786327af5e07c261fda175d3; jvm 1.8.0_202-b08
+2019-07-23 12:48:15.538  INFO 9448 --- [main] o.e.j.s.h.ContextHandler.application     : Initializing Spring embedded WebApplicationContext
+2019-07-23 12:48:16.279  INFO 9448 --- [main] org.eclipse.jetty.server.session         : DefaultSessionIdManager workerName=node0
+2019-07-23 12:48:16.279  INFO 9448 --- [main] org.eclipse.jetty.server.session         : No SessionScavenger set, using defaults
+2019-07-23 12:48:16.281  INFO 9448 --- [main] org.eclipse.jetty.server.session         : node0 Scavenging every 660000ms
+2019-07-23 12:48:16.292  INFO 9448 --- [main] o.e.jetty.server.handler.ContextHandler  : Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@508ad266{application,/,[file:///C:/Users/dkoryakovskiy/AppData/Local/Temp/jetty-docbase.5103338566856264806.8181/, jar:file:/K:/gradle-5.2/caches/modules-2/files-2.1/io.springfox/springfox-swagger-ui/2.9.2/d542382a88ff3ea8d4032c28b2b0325797fada7d/springfox-swagger-ui-2.9.2.jar!/META-INF/resources],AVAILABLE}
+2019-07-23 12:48:16.293  INFO 9448 --- [main] org.eclipse.jetty.server.Server          : Started @4558ms
+2019-07-23 12:48:17.968  INFO 9448 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-07-23 12:48:18.121  INFO 9448 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-07-23 12:48:18.243  INFO 9448 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-07-23 12:48:19.400  INFO 9448 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-07-23 12:48:19.549  INFO 9448 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-07-23 12:48:19.796  WARN 9448 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-07-23 12:48:20.535  INFO 9448 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-07-23 12:48:20.582  INFO 9448 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-07-23 12:48:20.649  INFO 9448 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-07-23 12:48:20.881  INFO 9448 --- [main] o.e.j.s.h.ContextHandler.application     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-23 12:48:20.916  INFO 9448 --- [main] o.e.jetty.server.AbstractConnector       : Started ServerConnector@72906e{HTTP/1.1,[http/1.1]}{0.0.0.0:8181}
+2019-07-23 12:48:20.919  INFO 9448 --- [main] o.s.b.web.embedded.jetty.JettyWebServer  : Jetty started on port(s) 8181 (http/1.1) with context path '/'
+2019-07-23 12:48:20.921  INFO 9448 --- [main] com.mmtr.App                             : Started App in 8.745 seconds (JVM running for 9.187)
+2019-07-23 12:51:01.089  INFO 13864 --- [main] com.mmtr.App                             : Starting App on dkoryakovskiy with PID 13864 (K:\mmtr_stage2\build\classes\java\main started by dkoryakovskiy in K:\mmtr_stage2)
+2019-07-23 12:51:01.094  INFO 13864 --- [main] com.mmtr.App                             : No active profile set, falling back to default profiles: default
+2019-07-23 12:51:02.595  INFO 13864 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-23 12:51:02.709  INFO 13864 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 103ms. Found 3 repository interfaces.
+2019-07-23 12:51:03.334  INFO 13864 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9d26929] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-23 12:51:03.626  INFO 13864 --- [main] org.eclipse.jetty.util.log               : Logging initialized @3527ms to org.eclipse.jetty.util.log.Slf4jLog
+2019-07-23 12:51:03.951  INFO 13864 --- [main] o.s.b.w.e.j.JettyServletWebServerFactory : Server initialized with port: 8181
+2019-07-23 12:51:03.954  INFO 13864 --- [main] org.eclipse.jetty.server.Server          : jetty-9.4.19.v20190610; built: 2019-06-10T16:30:51.723Z; git: afcf563148970e98786327af5e07c261fda175d3; jvm 1.8.0_202-b08
+2019-07-23 12:51:04.008  INFO 13864 --- [main] o.e.j.s.h.ContextHandler.application     : Initializing Spring embedded WebApplicationContext
+2019-07-23 12:51:04.793  INFO 13864 --- [main] org.eclipse.jetty.server.session         : DefaultSessionIdManager workerName=node0
+2019-07-23 12:51:04.793  INFO 13864 --- [main] org.eclipse.jetty.server.session         : No SessionScavenger set, using defaults
+2019-07-23 12:51:04.794  INFO 13864 --- [main] org.eclipse.jetty.server.session         : node0 Scavenging every 660000ms
+2019-07-23 12:51:04.804  INFO 13864 --- [main] o.e.jetty.server.handler.ContextHandler  : Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@62a6674f{application,/,[file:///C:/Users/dkoryakovskiy/AppData/Local/Temp/jetty-docbase.2349234549815726263.8181/, jar:file:/K:/gradle-5.2/caches/modules-2/files-2.1/io.springfox/springfox-swagger-ui/2.9.2/d542382a88ff3ea8d4032c28b2b0325797fada7d/springfox-swagger-ui-2.9.2.jar!/META-INF/resources],AVAILABLE}
+2019-07-23 12:51:04.804  INFO 13864 --- [main] org.eclipse.jetty.server.Server          : Started @4706ms
+2019-07-23 12:51:06.457  INFO 13864 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-07-23 12:51:06.588  INFO 13864 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-07-23 12:51:06.713  INFO 13864 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-07-23 12:51:07.838  INFO 13864 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-07-23 12:51:08.012  INFO 13864 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-07-23 12:51:08.258  WARN 13864 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-07-23 12:51:09.064  INFO 13864 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-07-23 12:51:09.121  INFO 13864 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-07-23 12:51:09.200  INFO 13864 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-07-23 12:51:09.456  INFO 13864 --- [main] o.e.j.s.h.ContextHandler.application     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-23 12:51:09.494  INFO 13864 --- [main] o.e.jetty.server.AbstractConnector       : Started ServerConnector@5f366587{HTTP/1.1,[http/1.1]}{0.0.0.0:8181}
+2019-07-23 12:51:09.496  INFO 13864 --- [main] o.s.b.web.embedded.jetty.JettyWebServer  : Jetty started on port(s) 8181 (http/1.1) with context path '/'
+2019-07-23 12:51:09.498  INFO 13864 --- [main] com.mmtr.App                             : Started App in 8.962 seconds (JVM running for 9.4)
+2019-07-23 12:51:50.433 ERROR 13864 --- [qtp963014210-17] o.h.engine.jdbc.spi.SqlExceptionHelper   : ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "name_uniq"
+  Detail: Ключ "(name)=(13343)" уже существует.

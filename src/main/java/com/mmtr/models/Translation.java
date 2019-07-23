@@ -1,7 +1,8 @@
 package com.mmtr.models;
 
 import javax.persistence.*;
-
+import java.util.HashSet;
+import java.util.Set;
 
 @Entity
 @Table(name = "translation")
@@ -15,9 +16,13 @@ public class Translation {
     @Column(name = "name")
     private String name;
 
+    @OneToMany(mappedBy = "translation", cascade = CascadeType.ALL, fetch = FetchType.LAZY, orphanRemoval = true)
+    private Set<Word> words = new HashSet<Word>();
+
     public Translation( String name) {
         this.name = name;
     }
+
     protected Translation() {
     }
 
@@ -35,5 +40,13 @@ public class Translation {
 
     public String getName() {
         return name;
+    }
+
+    public Set<Word> getWords() {
+        return words;
+    }
+
+    public void setWords(Set<Word> words) {
+        this.words = words;
     }
 }

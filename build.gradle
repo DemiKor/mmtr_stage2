@@ -29,6 +29,15 @@ dependencies {
     compile group: 'org.hibernate', name: 'hibernate-core', version: '5.4.3.Final'
     compile group: 'org.hibernate', name: 'hibernate-entitymanager', version: '5.4.3.Final'
 
+    // https://mvnrepository.com/artifact/io.springfox/springfox-swagger-ui
+    compile group: 'io.springfox', name: 'springfox-swagger-ui', version: '2.9.2'
+// https://mvnrepository.com/artifact/io.springfox/springfox-spring-web
+    compile group: 'io.springfox', name: 'springfox-spring-web', version: '2.9.2'
+    // https://mvnrepository.com/artifact/io.springfox/springfox-swagger2
+    compile group: 'io.springfox', name: 'springfox-swagger2', version: '2.9.2'
+
+
+
 }
 
 task wrapper(type: Wrapper) {
